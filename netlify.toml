@@ -4,4 +4,4 @@
 
 [build.environment]
   NODE_ENV="production
-  NODE_VERSION="12.18.3"
+  NODE_VERSION="14.16.0"

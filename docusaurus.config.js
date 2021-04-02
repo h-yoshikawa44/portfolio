@@ -1,9 +1,11 @@
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'h-yoshikawa44\'s Portfolio',
   tagline: 'よしのポートフォリオ',
   url: 'https://h-yoshikawa44.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   // organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'portfolio', // Usually your repo name.
@@ -31,7 +33,7 @@ module.exports = {
       items: [
         {to: '/skillandcareer', label: 'Skill & Career', position: 'left'},
         {to: '/myproducts', label: 'MyProducts', position: 'left'},
-        {to: 'docs/top', label: 'TIL', position: 'left'},
+        {to: 'tilTop', label: 'TIL', position: 'left'},
         {
           href: 'https://changeofpace.site',
           label: 'Blog',
@@ -52,11 +54,11 @@ module.exports = {
           items: [
             {
               label: 'Material Source',
-              to: 'docs/source',
+              to: 'source',
             },
             {
               label: 'Privacy Policy',
-              to: 'docs/policy',
+              to: 'policy',
             }
           ],
         },
@@ -116,9 +118,9 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         sitemap: {
-          cacheTime: 600 * 1000, // 600 sec - cache purge period
           changefreq: 'weekly',
           priority: 0.5,
+          trailingSlash: false,
         }
       },
     ],

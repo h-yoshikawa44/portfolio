@@ -7,9 +7,10 @@ h-yoshikawa44 のポートフォリオサイト
 [h-yoshikawa44's Portfolio](https://h-yoshikawa44.com/)
 ## 構成
 - Node.js：14.16.0
-- Docusaurus：2.0.0-alpha.65
-- @docusaurus/preset-classic：2.0.0-alpha.65
-  - Infima：0.2.0-alpha.13
+- React：17.0.1
+- Docusaurus：2.0.0-alpha.72
+- @docusaurus/preset-classic：2.0.0-alpha.72
+  - Infima：0.2.0-alpha.21
 
 ※2021/04/02更新
 

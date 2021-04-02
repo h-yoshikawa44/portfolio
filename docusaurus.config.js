@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   // organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'til-engineer', // Usually your repo name.
+  projectName: 'portfolio', // Usually your repo name.
   customFields: {
     url: {
       blog: 'https://changeofpace.site',
@@ -38,7 +38,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/h-yoshikawa44/til-engineer',
+          href: 'https://github.com/h-yoshikawa44/portfolio',
           label: 'GitHub',
           position: 'right',
         },
@@ -110,7 +110,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // editUrl:
-          //   'https://github.com/h-yoshikawa44/til-engineer/edit/master/website/',
+          //   'https://github.com/h-yoshikawa44/portfolio/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

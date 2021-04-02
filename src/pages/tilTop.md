@@ -1,8 +1,9 @@
 ---
-id: top
 title: TIL活動
 description: TIL活動のトップリンクページ
 ---
+
+# TIL 活動
 
 <details>
   <summary>TILとは？</summary>

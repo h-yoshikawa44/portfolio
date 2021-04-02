@@ -1,0 +1,36 @@
+:
+
+# ==== Type ====
+# --TIL活動--
+# TIL Docs: TIL活動のドキュメント化
+#
+# --ポートフォリオサイト--
+# Feat: 機能追加
+# Fix: バグ・typo・エラー修正
+# Refactor: リファクタリング・改善
+# Update: ポートフォリオデータ更新
+# Lib Update: ライブラリ・バージョン更新
+# Test: テストの追加・改善
+# Settings: 環境周りの設定の追加・改善
+# Docs: ドキュメント追加・更新
+# Remove: 不要な機能削除
+# Misc: その他
+
+# ==== Format ====
+# type: Subject(#issue)
+#
+# Commit body...
+#
+# ※push時にデプロイをしない場合は [skip ci] をつける
+
+# ==== The Seven Rules ====
+# 1. Separate subject from body with a blank line（件名と内容は空白行で区切る）
+# 2. Limit the subject line to 50 characters（件名は50文字まで）
+# 3. Capitalize the subject line（件名は大文字で）
+# 4. Do not end the subject line with a period（件名をピリオドで終わらせない）
+# 5. Use the imperative mood in the subject line（件名に命令法を使用する）
+# 6. Wrap the body at 72 characters（内容は72文字以内で折り返す）
+# 7. Use the body to explain what and why vs. how
+#  （内容で、何が変わったか、なぜそうしたのか、どうやったのかを説明する）
+#
+# How to Write a Git Commit Message https://chris.beams.io/posts/git-commit/

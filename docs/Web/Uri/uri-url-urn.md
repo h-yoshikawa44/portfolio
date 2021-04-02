@@ -21,7 +21,7 @@ keywords:
 ### URL
 以下のようなアドレスは`URL`とも言える（構文説明については [Web - URI の基本](/docs/Web/Uri/web-uri-basic) を参照）
 ```
-https://h-yoshikawa0724-til-engineer.com/docs/Web/Uri/web-uri-url-urn
+https://h-yoshikawa44.com/docs/Web/Uri/web-uri-url-urn
 ```
 
 このアドレスにより、リソースの場所を特定できる。  

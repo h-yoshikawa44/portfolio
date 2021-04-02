@@ -20,12 +20,12 @@ URI の仕様は RFC 3986 。
 
 ### シンプルな URI の例
 ```
-https://h-yoshikawa0724-til-engineer.com/docs/Web/Uri/web-uri-basic
+https://h-yoshikawa44.com/docs/Web/Uri/web-uri-basic
 ```
 
 この URI を構成する要素は以下の通り。
 - URI スキーム：https
-- ホスト名：h-yoshikawa0724-til-engineer.com
+- ホスト名：h-yoshikawa44.com
 - パス：/docs/Web/Uri/web-uri-basic
 
 #### URI スキーム
@@ -47,13 +47,13 @@ DNS（ Domain Name System ）で名前解決できるドメイン名、もしく
 
 ### 複雑な URI の例
 ```
-https://h-yoshikawa:pass@h-yoshikawa0724-til-engineer.com:80/search?type=web&word=test#n10
+https://h-yoshikawa:pass@h-yoshikawa44.com:80/search?type=web&word=test#n10
 ```
 
 この URI を構成する要素は以下の通り。
 - URI スキーム：https
 - ユーザ情報：h-yoshikawa:pass
-- ホスト名：h-yoshikawa0724-til-engineer.com
+- ホスト名：h-yoshikawa44.com
 - ポート番号：80
 - パス：/search
 - クエリパラメータ：type=web&word=test

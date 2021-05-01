@@ -2,22 +2,8 @@ import React from 'react';
 
 export const careersAtFroide = [
   {
-    period: '2020/11 ～',
-    title: '（療養中）',
-    langAndFw: '',
-    db: '',
-    environment: '',
-    cloudService: '',
-    other: '',
-    description: (
-      <>
-        心身共に療養しながら、社会復帰に向けて個人開発をやったり勉強したり。
-      </>
-    )
-  },
-  {
     period: '2020/10',
-    title: '退職：フロイデ株式会社',
+    title: '退職',
     langAndFw: '',
     db: '',
     environment: '',
@@ -25,7 +11,8 @@ export const careersAtFroide = [
     other: '',
     description: (
       <>
-        「適応障害」の再発などもあり、休職の後退職。しばらくは療養に専念することに。
+        「適応障害」の再発などもあり、休職の後退職。数か月は療養に専念。<br />
+        体調が回復してきてからは、社会復帰に向けて自学習や個人開発にいそしむ。
       </>
     )
   },
@@ -39,7 +26,8 @@ export const careersAtFroide = [
     other: '',
     description: (
       <>
-        開発環境、ドキュメント整備から着手。バグ対応や機能改善の保守。※一度、諸事情により案件停止したが再開。
+        保守案件。飲食店内で使われる管理システム。<br />
+        開発環境、ドキュメント整備から着手。バグ対応や機能改善。
       </>
     )
   },
@@ -53,21 +41,9 @@ export const careersAtFroide = [
     other: 'Swagger',
     description: (
       <>
-        実装部分を担当。メインはフロント担当であったものの、機能改修要件ではAPI側の修正も一緒に行なった時もあり。
-      </>
-    )
-  },
-  {
-    period: '2019/06',
-    title: '復職',
-    langAndFw: '',
-    db: '',
-    environment: '',
-    cloudService: '',
-    other: '',
-    description: (
-      <>
-        通勤のリハビリをするところからはじまり、少しずつ勤務時間を伸ばして徐々に復帰。案件に入るまではReactの自学習。
+        新規開発 ～ 保守案件。モバイルアプリとして提供しているサービスの管理システム側。<br />
+        実装部分を担当。メインはフロントエンド担当であったものの、機能改修要件ではバックエンド側の修正も一緒に行なった時もあり。<br />
+        復職してからの初案件であったため、はじめは上司の補助的なところから開始。段々と実装部分を任せてもらえるように。
       </>
     )
   },
@@ -81,7 +57,8 @@ export const careersAtFroide = [
     other: '',
     description: (
       <>
-        大きく体調を崩して休職。心療内科もとい精神科で「適応障害」「不安障害」の診断がつく。
+        大きく体調を崩して休職。心療内科もとい精神科で「適応障害」「不安障害」の診断がつく。<br />
+        2019/06に時短勤務で復職。
       </>
     )
   },
@@ -95,7 +72,8 @@ export const careersAtFroide = [
     other: '',
     description: (
       <>
-        実装部分を担当。既存APIにキャッシュの導入、APIの新規作成、バッチ作成など。
+        保守案件。宿泊サービスの予約システム群。<br />
+        実装部分を担当。既存 API にキャッシュの導入、決済に関わる API 群の作成、社内ツールやバッチ作成など。
       </>
     )
   },
@@ -109,7 +87,8 @@ export const careersAtFroide = [
     other: '',
     description: (
       <>
-        実装部分を担当。既存システムを元に、一から構築して作成。フロントとAPIとは切り離されておらず、CakePHPでどちらも対応。
+        新規開発案件。福祉系の保険請求システム。<br />
+        実装部分を担当。既存システムを元に、一から構築して作成。フロントエンドとバックエンドは切り離されておらず、CakePHP でどちらも対応。
       </>
     )
   },
@@ -124,13 +103,14 @@ export const careersAtFroide = [
     description: (
       <>
         未経験入社の社員がはじめに受講する研修。<br />
-        10月はC# + Unityでゲームを。11月はPHP、12月はRuby + Railsで日報システムを演習の成果物としてチームで作成。
+        10月は C# + Unity でオセロ + マインスイーパーのゲームを作成。<br />
+        11月は PHP、12月は Ruby + Rails で日報システムを演習の成果物としてチームで作成。
       </>
     )
   },
   {
     period: '2017/10',
-    title: '入社：フロイデ株式会社',
+    title: '入社',
     langAndFw: '',
     db: '',
     environment: '',
@@ -139,13 +119,29 @@ export const careersAtFroide = [
     description: (
       <>
         独学でプログラミングを勉強し、全くの他業種から転職。<br />
-        C、C++と学んだあとはJavaの勉強に励み、入社日までにJava Goldを取得。
+        C、C++ と学んだあとは Java の勉強に励み、入社日までに Java Gold を取得。
       </>
     )
   }
 ];
 
 export const personalDevelopment = [
+  {
+    period: '2020/12 ～ 現在進行中',
+    title: 'OOUI-MEMO',
+    langAndFw: 'TypeScirpt / React / PHP / Laravel',
+    db: 'MySQL',
+    environment: 'Git / Docker / GitHub Actions',
+    cloudService: 'Heroku',
+    other: 'OpenAPI',
+    description: (
+      <>
+        シンプルなメモアプリケーション。<br />
+        書籍「オブジェクト指向 UI デザイン」のワークアウトを、デザインだけでなく実際に実装して作るまでやってみようという自分の中の企画で作っているもの。<br />
+        構想自体は2020/08くらいからあったが、実際に積極的に活動を始めたのが2020/12頃。
+      </>
+    )
+  },
   {
     period: '2020/09/07 ～ 2020/09/14',
     title: 'Close to 2（計算結果が一番「2」に近い式をあてるゲーム）',
@@ -156,7 +152,7 @@ export const personalDevelopment = [
     other: '',
     description: (
       <>
-        個人開発。web1week（1週間でwebサービスを作るイベント）による、お題「2」の投稿作品。<br />
+        web1week（1週間でwebサービスを作るイベント）による、お題「2」の投稿作品。<br />
         9/12に元々作ろうとしていたものから当作品に移行したため、実質3日ほどで作った作品。
       </>
     )
@@ -171,7 +167,8 @@ export const personalDevelopment = [
     other: '',
     description: (
       <>
-        個人開発。web1week（1週間でwebサービスを作るイベント）による、お題「Like」の投稿作品。
+        web1week（1週間でwebサービスを作るイベント）による、お題「Like」の投稿作品。<br />
+        canvas を扱うライブラリ Konvs.js の React 版である React Konva というライブラリでパズル部分を構成。
       </>
     )
   },

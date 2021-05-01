@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import styles from './index.module.css';
 
 function PersonalLinkItem({ url, text }) {
   return (
@@ -33,19 +33,13 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={classnames(
-                'button button--outline button--info button--lg margin--xs',
-                styles.getStarted,
-              )}
+              className="button button--outline button--info button--lg margin--xs"
               to={useBaseUrl('/skillandcareer')}
             >
               スキル &amp; 経歴
             </Link>
             <Link
-              className={classnames(
-                'button button--outline button--info button--lg margin--xs',
-                styles.getStarted,
-              )}
+              className="button button--outline button--info button--lg margin--xs"
               to={useBaseUrl('/myproducts')}
             >
               個人開発
@@ -72,7 +66,7 @@ function Home() {
                   <div className="card__header">
                     <div className="avatar">
                       <img
-                        className={classnames('avatar__photo avatar__photo--xl', styles.avatar__photo_color)}
+                        className={classnames('avatar__photo avatar__photo--xl', styles.backgroundColorWhite)}
                         src={useBaseUrl("img/lion-custom.svg")}
                       />
                       <div className="avatar__intro">

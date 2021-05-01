@@ -9,11 +9,6 @@
   justify-content: center;
 }
 
-.skillImage {
-  height: 100px;
-  width: 100px;
-}
-
-.avatar__photo_color {
+.backgroundColorWhite {
   background-color: #fff;
 }

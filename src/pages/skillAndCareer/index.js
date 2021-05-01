@@ -1,11 +1,10 @@
 import React from 'react';
-import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
-import { editors, environments, langAndframewarks, database } from '../data/skills';
-import careers from '../data/careers';
+import styles from './index.module.css';
+import { editors, environments, langAndframewarks, database } from '../../data/skills';
+import careers from '../../data/careers';
 
 function Skill({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);

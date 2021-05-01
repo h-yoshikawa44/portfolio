@@ -1,9 +1,7 @@
 import React from 'react';
-import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
-import eventProducs from '../data/products';
+import eventProducs from '../../data/products';
 
 function MyProducts() {
   return (
@@ -27,7 +25,7 @@ function MyProducts() {
                   return (
                     <div className="col col--4 margin-bottom--lg" key={idx}>
                       <div className="card shadow--lw">
-                        <div className={classnames('text--center', 'card__image')} >
+                        <div className="text--center card__image">
                           <img
                             src={useBaseUrl(product.imageUrl)}
                             alt={product.productName}

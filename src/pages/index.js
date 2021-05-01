@@ -27,7 +27,7 @@ function Home() {
     <Layout
       title="Home"
       description="よしのポートフォリオサイト">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+      <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -56,7 +56,7 @@ function Home() {
       <main>
         <div className="container padding--md">
           <section>
-            <h3 className={classnames('text--center', styles.decorationLine)}>当サイトについて</h3>
+            <h3 className="text--center decoration-line">当サイトについて</h3>
             <div>
               <p>
                 Web プログラマーである h-yoshikawa44 のポートフォリオサイトです。<br />
@@ -65,7 +65,7 @@ function Home() {
             </div>
           </section>
           <section>
-            <h3 className={classnames('text--center', styles.decorationLine)}>管理人プロフィール</h3>
+            <h3 className="text--center decoration-line">管理人プロフィール</h3>
           　<div>
               <div className="card-demo margin-vert--sm">
                 <div className="card shadow--tl">

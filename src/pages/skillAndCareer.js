@@ -61,7 +61,7 @@ function SkillAndCareer() {
     <Layout
       title="Skill &amp; Career"
       description="よしのスキル &amp; 経歴">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+      <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">Skill &amp; Career</h1>
           <p className="hero__subtitle">スキルと経歴</p>
@@ -71,7 +71,7 @@ function SkillAndCareer() {
         <div className="container padding--md">
           <h2 className="text--center">スキル</h2>
           <section>
-            <h3 className={classnames('text--center', styles.decorationLine)}>エディタ</h3>
+            <h3 className="text--center decoration-line">エディタ</h3>
             {editors && editors.length && (
               <div className="padding-vert--lg">
                 <div className="row">
@@ -83,7 +83,7 @@ function SkillAndCareer() {
             )}
           </section>
           <section>
-            <h3 className={classnames('text--center', styles.decorationLine)}>開発環境</h3>
+          <h3 className="text--center decoration-line">開発環境</h3>
             {environments && environments.length && (
               <div className="padding-vert--lg">
                 <div className="row">
@@ -95,7 +95,7 @@ function SkillAndCareer() {
             )}
           </section>
           <section>
-            <h3 className={classnames('text--center', styles.decorationLine)}>言語・フレームワーク</h3>
+          <h3 className="text--center decoration-line">言語・フレームワーク</h3>
             {langAndframewarks && langAndframewarks.length && (
               <div className="padding-vert--lg">
                 <div className="row">
@@ -107,7 +107,7 @@ function SkillAndCareer() {
             )}
           </section>
           <section>
-            <h3 className={classnames('text--center', styles.decorationLine)}>データベース</h3>
+          <h3 className="text--center decoration-line">データベース</h3>
             {database && database.length && (
               <div className="padding-vert--lg">
                 <div className="row">

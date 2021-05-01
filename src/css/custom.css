@@ -25,3 +25,39 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.hero-banner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 966px) {
+  .hero-banner {
+    padding: 2rem;
+  }
+}
+
+.decoration-line {
+  display: flex;
+  align-items: center;
+}
+
+.decoration-line:before, .decoration-line:after {
+  content: "";
+	flex-grow: 1;
+	height: 1px;
+	background: #444;
+	display: block;
+}
+
+.decoration-line:before {
+  margin-right: .4em;
+  background: linear-gradient(-90deg, #888, transparent);
+}
+
+.decoration-line:after {
+  margin-left: .4em;
+  background: linear-gradient(90deg, #888, transparent);
+}

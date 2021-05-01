@@ -1,0 +1,14 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backgroundColorWhite {
+  background-color: #fff;
+}

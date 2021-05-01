@@ -1,6 +1,14 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2021-05-01
+### Updated
+- ポートフォリオ更新 - 2021/05(#4)
+
+### Changed
+- 経歴の構成を会社ごとと個人開発とで分離(#5)
+- 一部影スタイルの修正(#5)
+
 ## 2021-04-02
 ### Updated
 - Docusaurus（2.0.0-alpha.65 → 2.0.0-alpha.72）

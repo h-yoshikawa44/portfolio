@@ -17,6 +17,7 @@
   --ifm-link-hover-color: #54c7ec;
   --ifm-footer-link-hover-color: #54c7ec;
   --ifm-code-font-size: 95%;
+  --ifm-global-shadow-lw-custom: 0 1px 10px rgba(0, 0, 0, 0.2)
 }
 
 .docusaurus-highlight-code-line {
@@ -24,6 +25,10 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+.shadow--lw-custom {
+  box-shadow: var(--ifm-global-shadow-lw-custom) !important;
 }
 
 .hero-banner {

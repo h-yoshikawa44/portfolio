@@ -3,9 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-  ],
+  extends: ['plugin:react/recommended', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -13,9 +11,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'import', 'jsx-a11y', 'react', 'react-hooks',
-  ],
+  plugins: ['import', 'jsx-a11y', 'react', 'react-hooks'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.tsx'] }],
   },
@@ -23,5 +19,5 @@ module.exports = {
     react: {
       version: '17.0.2',
     },
-  }
+  },
 };

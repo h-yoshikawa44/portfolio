@@ -9,17 +9,13 @@ import styles from './index.module.css';
 
 PersonalLinkItem.propTypes = {
   url: PropTypes.string,
-  text: PropTypes.string
-}
+  text: PropTypes.string,
+};
 
 function PersonalLinkItem({ url, text }) {
   return (
     <li>
-      <a
-        href={url}
-        target="_blank"
-        rel="noreferrer noopener"
-      >
+      <a href={url} target="_blank" rel="noreferrer noopener">
         {text}
       </a>
     </li>
@@ -28,11 +24,9 @@ function PersonalLinkItem({ url, text }) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
-    <Layout
-      title="Home"
-      description="よしのポートフォリオサイト">
+    <Layout title="Home" description="よしのポートフォリオサイト">
       <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -59,21 +53,27 @@ function Home() {
             <h3 className="text--center decoration-line">当サイトについて</h3>
             <div>
               <p>
-                Web プログラマーである h-yoshikawa44 のポートフォリオサイトです。<br />
+                Web プログラマーである h-yoshikawa44
+                のポートフォリオサイトです。
+                <br />
                 経験スキルや実務経歴、個人開発の履歴、各種技術活動に関するアカウントのリンクなどを集約しています。
               </p>
             </div>
           </section>
           <section>
             <h3 className="text--center decoration-line">管理人プロフィール</h3>
-          　<div>
+            　
+            <div>
               <div className="card-demo margin-vert--sm">
                 <div className="card shadow--tl">
                   <div className="card__header">
                     <div className="avatar">
                       <img
-                        className={classnames('avatar__photo avatar__photo--xl', styles.backgroundColorWhite)}
-                        src={useBaseUrl("img/lion-custom.svg")}
+                        className={classnames(
+                          'avatar__photo avatar__photo--xl',
+                          styles.backgroundColorWhite
+                        )}
+                        src={useBaseUrl('img/lion-custom.svg')}
                       />
                       <div className="avatar__intro">
                         <h3 className="avatar__name">Hitomi Yoshikawa</h3>
@@ -85,8 +85,10 @@ function Home() {
                   </div>
                   <div className="card__body">
                     <p>
-                      精神疾患持ちの Web プログラマー。<br />
-                      2020年秋頃に退職してから療養していましたが、社会復帰に向けて少しずつ活動再開しています。<br />
+                      精神疾患持ちの Web プログラマー。
+                      <br />
+                      2020年秋頃に退職してから療養していましたが、社会復帰に向けて少しずつ活動再開しています。
+                      <br />
                       <br />
                       実務経験として、フロントエンド、バックエンドともに経験はありますが、
                       いまいちスキルの中途半端感があるのでフロントエンド領域のスキルを伸ばそうかと思っています。
@@ -94,8 +96,10 @@ function Home() {
                   </div>
                   <div className="card__footer">
                     <p>
-                      個人ブログや各種技術活動に関するアカウントはこちら。<br />
-                      （※Qiita、Zenn および Crieit に投稿している記事は、全てブログにも投稿しています）
+                      個人ブログや各種技術活動に関するアカウントはこちら。
+                      <br />
+                      （※Qiita、Zenn および Crieit
+                      に投稿している記事は、全てブログにも投稿しています）
                     </p>
                     <ul>
                       <PersonalLinkItem
@@ -104,23 +108,23 @@ function Home() {
                       />
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.github}
-                        text='GitHub'
+                        text="GitHub"
                       />
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.twitter}
-                        text='Twitter'
+                        text="Twitter"
                       />
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.qiita}
-                        text='Qiita'
+                        text="Qiita"
                       />
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.zenn}
-                        text='Zenn'
+                        text="Zenn"
                       />
-                       <PersonalLinkItem
+                      <PersonalLinkItem
                         url={siteConfig.customFields.url.crieit}
-                        text='Crieit'
+                        text="Crieit"
                       />
                     </ul>
                   </div>

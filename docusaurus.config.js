@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'h-yoshikawa44\'s Portfolio',
+  title: "h-yoshikawa44's Portfolio",
   tagline: 'よしのポートフォリオ',
   url: 'https://h-yoshikawa44.com',
   baseUrl: '/',
@@ -16,8 +16,8 @@ module.exports = {
       twitter: 'https://twitter.com/yoshi44_lion',
       qiita: 'https://qiita.com/h-yoshikawa44',
       zenn: 'https://zenn.dev/h_yoshikawa0724',
-      crieit: 'https://crieit.net/users/h-yoshikawa0724'
-    }
+      crieit: 'https://crieit.net/users/h-yoshikawa0724',
+    },
   },
   themeConfig: {
     prism: {
@@ -25,15 +25,15 @@ module.exports = {
     },
     image: 'img/ogp.png',
     navbar: {
-      title: 'h-yoshikawa44\'s Portfolio',
+      title: "h-yoshikawa44's Portfolio",
       logo: {
         alt: '獅子のロゴアイコン',
         src: 'img/lion-logo.svg',
       },
       items: [
-        {to: '/skillandcareer', label: 'Skill & Career', position: 'left'},
-        {to: '/myproducts', label: 'MyProducts', position: 'left'},
-        {to: 'tilTop', label: 'TIL', position: 'left'},
+        { to: '/skillandcareer', label: 'Skill & Career', position: 'left' },
+        { to: '/myproducts', label: 'MyProducts', position: 'left' },
+        { to: 'tilTop', label: 'TIL', position: 'left' },
         {
           href: 'https://changeofpace.site',
           label: 'Blog',
@@ -59,7 +59,7 @@ module.exports = {
             {
               label: 'Privacy Policy',
               to: 'policy',
-            }
+            },
           ],
         },
         {
@@ -87,7 +87,7 @@ module.exports = {
             },
             {
               label: 'Crieit',
-              href: 'https://crieit.net/users/h-yoshikawa0724'
+              href: 'https://crieit.net/users/h-yoshikawa0724',
             },
             {
               html: `
@@ -121,7 +121,7 @@ module.exports = {
           changefreq: 'weekly',
           priority: 0.5,
           trailingSlash: false,
-        }
+        },
       },
     ],
   ],

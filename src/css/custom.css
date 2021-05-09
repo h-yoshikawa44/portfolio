@@ -17,7 +17,7 @@
   --ifm-link-hover-color: #54c7ec;
   --ifm-footer-link-hover-color: #54c7ec;
   --ifm-code-font-size: 95%;
-  --ifm-global-shadow-lw-custom: 0 1px 10px rgba(0, 0, 0, 0.2)
+  --ifm-global-shadow-lw-custom: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .docusaurus-highlight-code-line {
@@ -49,20 +49,21 @@
   align-items: center;
 }
 
-.decoration-line:before, .decoration-line:after {
-  content: "";
-	flex-grow: 1;
-	height: 1px;
-	background: #444;
-	display: block;
+.decoration-line:before,
+.decoration-line:after {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  background: #444;
+  display: block;
 }
 
 .decoration-line:before {
-  margin-right: .4em;
+  margin-right: 0.4em;
   background: linear-gradient(-90deg, #888, transparent);
 }
 
 .decoration-line:after {
-  margin-left: .4em;
+  margin-left: 0.4em;
   background: linear-gradient(90deg, #888, transparent);
 }

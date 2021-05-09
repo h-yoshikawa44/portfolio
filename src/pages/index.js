@@ -4,7 +4,13 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import PropTypes from 'prop-types';
 import styles from './index.module.css';
+
+PersonalLinkItem.propTypes = {
+  url: PropTypes.string,
+  text: PropTypes.string
+}
 
 function PersonalLinkItem({ url, text }) {
   return (

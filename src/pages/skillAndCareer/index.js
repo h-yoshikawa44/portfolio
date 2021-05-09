@@ -3,9 +3,16 @@ import Layout from '@theme/Layout';
 import classnames from 'classnames';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import PropTypes from 'prop-types';
 import styles from './index.module.css';
 import { editors, environments, langAndframewarks, database } from '../../data/skills';
 import { careersAtFroide, personalDevelopment} from '../../data/careers';
+
+Skill.propTypes = {
+  imageUrl: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.element
+}
 
 function Skill({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -20,6 +27,17 @@ function Skill({ imageUrl, title, description }) {
       <p className="text--center">{description}</p>
     </div>
   );
+}
+
+Career.propTypes = {
+  period: PropTypes.string,
+  title: PropTypes.string,
+  langAndFw: PropTypes.string,
+  db: PropTypes.string,
+  environment: PropTypes.string,
+  cloudService: PropTypes.string,
+  other: PropTypes.string,
+  description: PropTypes.element,
 }
 
 function Career({ period, title, langAndFw, db, environment, cloudService, other, description }) {
@@ -113,7 +131,9 @@ function SkillAndCareer() {
         </section>
         <section className="container padding--md">
           <h2 className="text--center">経歴</h2>
-          <small className={classnames('text--center padding-bottom--md', styles.displayBlock)}>※ここで書いている技術スタックは、実際に使われているもののうち、自分が関わった部分のみ記載しています。</small>
+          <small className={classnames('text--center padding-bottom--md', styles.displayBlock)}>
+            ※ここで書いている技術スタックは、実際に使われているもののうち、自分が関わった部分のみ記載しています。
+          </small>
           <section>
             <h3 className="text--center decoration-line">フロイデ株式会社 【2017/10 ～ 2020/10】</h3>
             {careersAtFroide && careersAtFroide.length && (

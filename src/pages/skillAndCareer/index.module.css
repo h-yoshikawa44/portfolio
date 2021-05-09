@@ -6,3 +6,7 @@
 .displayBlock {
   display: block;
 }
+
+.displayTable {
+  display: table;
+}

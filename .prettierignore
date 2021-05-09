@@ -1,0 +1,5 @@
+.docusaurus/**
+node_modules/**
+build/**
+package.json
+**/*.md

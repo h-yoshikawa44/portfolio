@@ -18,8 +18,8 @@ module.exports = {
           'Web/History/web-birth',
           'Web/History/web-standardization',
           'Web/History/web-api',
-          'Web/History/web-after'
-        ]
+          'Web/History/web-after',
+        ],
       },
       {
         type: 'category',
@@ -28,7 +28,7 @@ module.exports = {
           'Web/Rest/web-architecture-style',
           'Web/Rest/web-resource',
           'Web/Rest/web-configration-style',
-        ]
+        ],
       },
       {
         type: 'category',
@@ -37,10 +37,10 @@ module.exports = {
           'Web/Uri/web-uri-basic',
           'Web/Uri/web-uri-type',
           'Web/Uri/web-uri-code',
-          'Web/Uri/web-uri-url-urn'
-        ]
-      }
-    ]
+          'Web/Uri/web-uri-url-urn',
+        ],
+      },
+    ],
   },
   linux: {
     Linux: [
@@ -48,11 +48,9 @@ module.exports = {
       {
         type: 'category',
         label: 'CLI',
-        items: [
-          'Linux/Command/linux-ssh-key'
-        ],
+        items: ['Linux/Command/linux-ssh-key'],
       },
-    ]
+    ],
   },
   git: {
     Git: [
@@ -69,23 +67,21 @@ module.exports = {
           'Git/Command/git-cli-basic',
           'Git/Command/git-cli-file',
           'Git/Command/git-cli-branch',
-          'Git/Command/git-cli-tag'
+          'Git/Command/git-cli-tag',
         ],
       },
-    ]
+    ],
   },
   docker: {
     Docker: [
       'Docker/docker-overview',
       'Docker/docker-work',
       'Docker/docker-image',
-      'Docker/docker-dockerfile'
-    ]
+      'Docker/docker-dockerfile',
+    ],
   },
   general: {
-    'テクニック': [
-      'General/if-flat'
-    ]
+    テクニック: ['General/if-flat'],
   },
   java: {
     Pure: [
@@ -99,7 +95,7 @@ module.exports = {
           'Java/Pure/Concept/java-enum',
           'Java/Pure/Concept/java-object',
           'Java/Pure/Concept/java-abstract-class',
-          'Java/Pure/Concept/java-interface'
+          'Java/Pure/Concept/java-interface',
         ],
       },
       {
@@ -107,7 +103,7 @@ module.exports = {
         label: '考え方',
         items: [
           'Java/Pure/Thought/java-encapsulation',
-          'Java/Pure/Thought/java-singleton'
+          'Java/Pure/Thought/java-singleton',
         ],
       },
       'Java/Pure/java-cast',
@@ -117,17 +113,15 @@ module.exports = {
         items: [
           'Java/Pure/Basic/java-print',
           'Java/Pure/Basic/java-if',
-          'Java/Pure/Basic/java-loop'
+          'Java/Pure/Basic/java-loop',
         ],
       },
       {
         type: 'category',
         label: '配列',
-        items: [
-          'Java/Pure/Array/java-array-basic'
-        ],
+        items: ['Java/Pure/Array/java-array-basic'],
       },
-    ]
+    ],
   },
   php: {
     Pure: [
@@ -135,10 +129,7 @@ module.exports = {
       {
         type: 'category',
         label: '概念',
-        items: [
-          'PHP/Pure/Concept/php-syntax',
-          'PHP/Pure/Concept/php-class',
-        ],
+        items: ['PHP/Pure/Concept/php-syntax', 'PHP/Pure/Concept/php-class'],
       },
       {
         type: 'category',
@@ -146,16 +137,14 @@ module.exports = {
         items: [
           'PHP/Pure/Basic/php-print',
           'PHP/Pure/Basic/php-if',
-          'PHP/Pure/Basic/php-loop'
+          'PHP/Pure/Basic/php-loop',
         ],
       },
       {
         type: 'category',
         label: '配列',
-        items: [
-          'PHP/Pure/Array/php-array-basic'
-        ],
+        items: ['PHP/Pure/Array/php-array-basic'],
       },
-    ]
-  }
+    ],
+  },
 };

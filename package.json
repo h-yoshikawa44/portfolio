@@ -11,7 +11,13 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint:eslint": "yarn run -s eslint './src/**/*.{js,jsx,ts,tsx}'",
+    "lint:prettier": "yarn run -s prettier --check .",
+    "fix": "yarn fix:eslint && yarn fix:prettier",
+    "fix:eslint": "yarn lint:eslint -- --fix",
+    "fix:prettier": "yarn lint:prettier -- --write"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.72",
@@ -35,6 +41,13 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4",
+    "prettier": "^2.2.1",
     "textlint": "^11.9.0",
     "textlint-rule-preset-ja-technical-writing": "^4.0.1"
   }

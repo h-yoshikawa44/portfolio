@@ -17,6 +17,7 @@ module.exports = {
       qiita: 'https://qiita.com/h-yoshikawa44',
       zenn: 'https://zenn.dev/h_yoshikawa0724',
       crieit: 'https://crieit.net/users/h-yoshikawa0724',
+      credly: 'https://www.credly.com/users/h-yoshikawa44',
     },
   },
   themeConfig: {

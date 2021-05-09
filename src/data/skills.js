@@ -231,3 +231,26 @@ export const database = [
     description: <>実務使用経験あり。</>,
   },
 ];
+
+export const qualification = [
+  {
+    name: 'AWS Certified Solutions Architect – Associate',
+    date: '2019/08',
+  },
+  {
+    name: 'Oracle Certified Java Programmer, Gold SE 8',
+    date: '2017/09',
+  },
+  {
+    name: '基本情報技術者',
+    date: '2017/05',
+  },
+  {
+    name: 'Oracle Certified Java Programmer, Silver SE 8',
+    date: '2017/02',
+  },
+  {
+    name: 'Oracle Certified Java Programmer, Bronze SE 7/8',
+    date: '2016/11',
+  },
+];

@@ -10,6 +10,7 @@ import {
   environments,
   langAndframewarks,
   database,
+  qualification,
 } from '../../data/skills';
 import { careersAtFroide, personalDevelopment } from '../../data/careers';
 
@@ -77,6 +78,20 @@ function Career({
   );
 }
 
+Qualification.propTypes = {
+  name: PropTypes.string,
+  date: PropTypes.string,
+};
+
+function Qualification({ name, date }) {
+  return (
+    <tr>
+      <td>{name}</td>
+      <td>{date}</td>
+    </tr>
+  );
+}
+
 function SkillAndCareer() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -138,6 +153,38 @@ function SkillAndCareer() {
                     <Skill key={idx} {...props} />
                   ))}
                 </div>
+              </div>
+            )}
+          </section>
+          <section>
+            <h3 className="text--center decoration-line">所持資格</h3>
+            <small
+              className={classnames(
+                'text--center padding-bottom--md',
+                styles.displayBlock
+              )}
+            >
+              ※バッジがある資格については、
+              <a
+                href={siteConfig.customFields.url.credly}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Credly
+              </a>
+              {` `}に記録があります。
+            </small>
+            {qualification && qualification.length && (
+              <div className="padding-vert--lg">
+                <table className={styles.displayTable}>
+                  <tr>
+                    <th>名称</th>
+                    <th>取得年月</th>
+                  </tr>
+                  {qualification.map((props, idx) => (
+                    <Qualification key={idx} {...props} />
+                  ))}
+                </table>
               </div>
             )}
           </section>

@@ -1,6 +1,13 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2021-05-09
+### Added
+- スキル・経歴ページに所持資格の欄を追加(#8)
+
+### Other
+- ESLint + Prettier 導入(#7)
+
 ## 2021-05-01
 ### Updated
 - ポートフォリオ更新 - 2021/05(#4)

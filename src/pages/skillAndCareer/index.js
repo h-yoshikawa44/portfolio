@@ -158,12 +158,7 @@ function SkillAndCareer() {
           </section>
           <section>
             <h3 className="text--center decoration-line">所持資格</h3>
-            <small
-              className={classnames(
-                'text--center padding-bottom--md',
-                styles.displayBlock
-              )}
-            >
+            <small className={classnames('text--center', styles.displayBlock)}>
               ※バッジがある資格については、
               <a
                 href={siteConfig.customFields.url.credly}
@@ -177,13 +172,17 @@ function SkillAndCareer() {
             {qualification && qualification.length && (
               <div className="padding-vert--lg">
                 <table className={styles.displayTable}>
-                  <tr>
-                    <th>名称</th>
-                    <th>取得年月</th>
-                  </tr>
-                  {qualification.map((props, idx) => (
-                    <Qualification key={idx} {...props} />
-                  ))}
+                  <thead>
+                    <tr>
+                      <th>名称</th>
+                      <th>取得年月</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {qualification.map((props, idx) => (
+                      <Qualification key={idx} {...props} />
+                    ))}
+                  </tbody>
                 </table>
               </div>
             )}

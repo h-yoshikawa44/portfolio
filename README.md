@@ -8,11 +8,11 @@ h-yoshikawa44 のポートフォリオサイト
 ## 構成
 - Node.js：14.16.0
 - React：17.0.1
-- Docusaurus：2.0.0-alpha.72
-- @docusaurus/preset-classic：2.0.0-alpha.72
-  - Infima：0.2.0-alpha.21
+- Docusaurus：2.0.0-beta.0
+- @docusaurus/preset-classic：2.0.0-beta.0
+  - Infima：0.2.0-alpha.23
 
-※2021/04/02更新
+※2021/05/14更新
 
 Docusaurus 2 系は開発中のバージョンであるため、バージョンアップ対応などは、より注意して行うこと。
 

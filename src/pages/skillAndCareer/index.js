@@ -1,8 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import classnames from 'classnames';
+import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import PropTypes from 'prop-types';
 import styles from './index.module.css';
 import {
@@ -15,18 +14,17 @@ import {
 import { careersAtFroide, personalDevelopment } from '../../data/careers';
 
 Skill.propTypes = {
-  imageUrl: PropTypes.string,
+  Svg: PropTypes.func,
   title: PropTypes.string,
   description: PropTypes.element,
 };
 
-function Skill({ imageUrl, title, description }) {
-  const imgUrl = useBaseUrl(imageUrl);
+function Skill({ Svg, title, description }) {
   return (
     <div className="col col--3">
-      {imgUrl && (
+      {Svg && (
         <div className="text--center">
-          <img className={styles.skillImage} src={imgUrl} alt={title} />
+          <Svg className={styles.skillImage} alt={title} />
         </div>
       )}
       <h4 className="text--center">{title}</h4>
@@ -158,7 +156,7 @@ function SkillAndCareer() {
           </section>
           <section>
             <h3 className="text--center decoration-line">所持資格</h3>
-            <small className={classnames('text--center', styles.displayBlock)}>
+            <small className={clsx('text--center', styles.displayBlock)}>
               ※バッジがある資格については、
               <a
                 href={siteConfig.customFields.url.credly}
@@ -191,7 +189,7 @@ function SkillAndCareer() {
         <section className="container padding--md">
           <h2 className="text--center">経歴</h2>
           <small
-            className={classnames(
+            className={clsx(
               'text--center padding-bottom--md',
               styles.displayBlock
             )}

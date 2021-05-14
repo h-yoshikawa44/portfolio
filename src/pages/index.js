@@ -1,5 +1,5 @@
 import React from 'react';
-import classnames from 'classnames';
+import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -69,7 +69,7 @@ function Home() {
                   <div className="card__header">
                     <div className="avatar">
                       <img
-                        className={classnames(
+                        className={clsx(
                           'avatar__photo avatar__photo--xl',
                           styles.backgroundColorWhite
                         )}

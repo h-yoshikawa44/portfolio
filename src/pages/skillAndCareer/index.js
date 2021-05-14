@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import classnames from 'classnames';
+import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import PropTypes from 'prop-types';
@@ -158,7 +158,7 @@ function SkillAndCareer() {
           </section>
           <section>
             <h3 className="text--center decoration-line">所持資格</h3>
-            <small className={classnames('text--center', styles.displayBlock)}>
+            <small className={clsx('text--center', styles.displayBlock)}>
               ※バッジがある資格については、
               <a
                 href={siteConfig.customFields.url.credly}
@@ -191,7 +191,7 @@ function SkillAndCareer() {
         <section className="container padding--md">
           <h2 className="text--center">経歴</h2>
           <small
-            className={classnames(
+            className={clsx(
               'text--center padding-bottom--md',
               styles.displayBlock
             )}

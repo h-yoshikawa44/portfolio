@@ -1,6 +1,14 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2021-05-14
+### Updated
+- Docusaurus（2.0.0-alpha.72 → 2.0.0-beta.0）(#10)
+
+### Other
+- classnames を clsx に移行(#10)
+- SVG アイコン使用時、インライン SVG 形式になるよう修正(#10)
+
 ## 2021-05-09
 ### Added
 - スキル・経歴ページに所持資格の欄を追加(#8)
@@ -18,8 +26,8 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2021-04-02
 ### Updated
-- Docusaurus（2.0.0-alpha.65 → 2.0.0-alpha.72）
-- React（16.12.0 → 17.0.1）
+- Docusaurus（2.0.0-alpha.65 → 2.0.0-alpha.72）(#1)
+- React（16.12.0 → 17.0.1）(#1)
 
 ### Other
 - TIL リポジトリから分離（当リポジトリ作成）

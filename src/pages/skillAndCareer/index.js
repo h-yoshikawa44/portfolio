@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import PropTypes from 'prop-types';
 import styles from './index.module.css';
 import {
@@ -15,18 +14,17 @@ import {
 import { careersAtFroide, personalDevelopment } from '../../data/careers';
 
 Skill.propTypes = {
-  imageUrl: PropTypes.string,
+  Svg: PropTypes.func,
   title: PropTypes.string,
   description: PropTypes.element,
 };
 
-function Skill({ imageUrl, title, description }) {
-  const imgUrl = useBaseUrl(imageUrl);
+function Skill({ Svg, title, description }) {
   return (
     <div className="col col--3">
-      {imgUrl && (
+      {Svg && (
         <div className="text--center">
-          <img className={styles.skillImage} src={imgUrl} alt={title} />
+          <Svg className={styles.skillImage} alt={title} />
         </div>
       )}
       <h4 className="text--center">{title}</h4>

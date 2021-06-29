@@ -49,7 +49,7 @@ export const environments = [
       <>
         実務使用経験あり。
         <br />
-        多少、自分で環境を作ったことがあり、基礎的な知識がある程度。
+        多少、調べながら自分で環境を作ったことがあり、基礎的な知識がある程度。
       </>
     ),
   },
@@ -61,17 +61,22 @@ export const langAndframewarks = [
     Svg: require('../../static/img/logo-icons/html-5.svg').default,
     description: (
       <>
-        基本的には研修で学んだ程度。
+        基礎復習で勉強中。
         <br />
-        そのほか、FW のビューで記述したり、React の
-        JSX（厳密には異なるが）で書いているなど。
+        素の HTML というよりは、React の JSX として書いていることが多い。
       </>
     ),
   },
   {
     title: 'CSS',
     Svg: require('../../static/img/logo-icons/css-3.svg').default,
-    description: <>実務使用経験あり。</>,
+    description: (
+      <>
+        基礎復習で勉強中。
+        <br />
+        最近だと emotion の中で書いている。
+      </>
+    ),
   },
   {
     title: 'JavaScript',
@@ -89,9 +94,9 @@ export const langAndframewarks = [
     Svg: require('../../static/img/logo-icons/typescript-icon.svg').default,
     description: (
       <>
-        つい最近、個人開発でReactのコードを書く上で使い始めた言語。
+        自分の中でフロント側のコードを書く際のデファクトにしたい言語で、今年から使い始めた。
         <br />
-        経験としては2か月程度。自分の中で、フロント側のコードを書く際のデファクトにしたい。
+        個人開発や課題をこなす中で使用。
       </>
     ),
   },
@@ -119,10 +124,10 @@ export const langAndframewarks = [
   },
   {
     title: 'Next.js',
-    Svg: require('../../static/img/logo-icons/nextjs.svg').default,
+    Svg: require('../../static/img/logo-icons/nextjs-icon.svg').default,
     description: (
       <>
-        つい最近、個人勉強を始めたフレームワーク。
+        今年、個人勉強や課題をこなす中で使用し始めたフレームワーク。
         <br />
         React の知識を深める中で、この技術も習得していきたい。
       </>
@@ -143,7 +148,7 @@ export const langAndframewarks = [
   },
   {
     title: 'Spring',
-    Svg: require('../../static/img/logo-icons/spring.svg').default,
+    Svg: require('../../static/img/logo-icons/spring-icon.svg').default,
     description: (
       <>
         実務使用経験あり。
@@ -170,7 +175,7 @@ export const langAndframewarks = [
       <>
         実務使用経験あり。
         <br />
-        最初の案件で使用した FW であるため、ブランクあり。
+        最初の案件で使用したフレームワークであるため、ブランクあり。
       </>
     ),
   },
@@ -179,9 +184,9 @@ export const langAndframewarks = [
     Svg: require('../../static/img/logo-icons/laravel.svg').default,
     description: (
       <>
-        過去に個人勉強していたことがある FW。
+        過去に個人勉強していたことがあるフレームワーク。
         <br />
-        現在、個人開発で API の実装に使用。
+        個人開発で API の実装に使用経験あり。
       </>
     ),
   },

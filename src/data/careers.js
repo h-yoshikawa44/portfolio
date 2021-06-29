@@ -141,7 +141,7 @@ export const careersAtFroide = [
 
 export const personalDevelopment = [
   {
-    period: '2020/12 ～ 現在進行中',
+    period: '2020/12 ～ 2021/05 ※現在停止中',
     title: 'OOUI-MEMO',
     langAndFw: 'TypeScirpt / React / PHP / Laravel',
     db: 'MySQL',
@@ -156,6 +156,9 @@ export const personalDevelopment = [
         デザイン」のワークアウトを、デザインだけでなく実際に実装して作るまでやってみようという自分の中の企画で作っているもの。
         <br />
         構想自体は2020/08くらいからあったが、実際に積極的に活動を始めたのが2020/12頃。
+        <br />
+        ※2021/06の時点で、devChallenges
+        の課題を通した基礎復習を優先しているため停止中です。
       </>
     ),
   },
@@ -187,7 +190,7 @@ export const personalDevelopment = [
       <>
         web1week（1週間でwebサービスを作るイベント）による、お題「Like」の投稿作品。
         <br />
-        canvas を扱うライブラリ Konvs.js の React 版である React Konva
+        canvas を扱うライブラリ Konva.js の React 版である React Konva
         というライブラリでパズル部分を構成。
       </>
     ),

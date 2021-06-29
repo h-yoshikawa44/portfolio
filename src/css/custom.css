@@ -49,8 +49,8 @@
   align-items: center;
 }
 
-.decoration-line:before,
-.decoration-line:after {
+.decoration-line::before,
+.decoration-line::after {
   content: '';
   flex-grow: 1;
   height: 1px;
@@ -58,12 +58,20 @@
   display: block;
 }
 
-.decoration-line:before {
+.decoration-line::before {
   margin-right: 0.4em;
   background: linear-gradient(-90deg, #888, transparent);
 }
 
-.decoration-line:after {
+.decoration-line::after {
   margin-left: 0.4em;
   background: linear-gradient(90deg, #888, transparent);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-table {
+  display: table;
 }

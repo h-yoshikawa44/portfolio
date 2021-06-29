@@ -2,7 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import PropTypes from 'prop-types';
-import eventProducs from '../../data/products';
+import styles from './index.module.css';
+import { webService } from '../../data/products';
 
 Product.propTypes = {
   productName: PropTypes.string,
@@ -17,7 +18,11 @@ function Product({ productName, description, imageUrl, url, githubUrl }) {
     <div className="col col--4 margin-bottom--lg">
       <div className="card shadow--lw">
         <div className="text--center card__image">
-          <img src={useBaseUrl(imageUrl)} alt={productName} height="180" />
+          <img
+            src={useBaseUrl(imageUrl)}
+            alt={productName}
+            className={styles.productImg}
+          />
         </div>
         <div className="card__body">
           <h4>{productName}</h4>
@@ -60,22 +65,36 @@ function MyProducts() {
         </div>
       </header>
       <main>
-        <div className="container padding--md">
+        <section className="container padding--md">
           <h2 className="text--center">Webサービス</h2>
           <section>
             <h3 className="text--center decoration-line">イベント参加</h3>
-            {eventProducs && eventProducs.length && (
-              <div className="row">
-                {eventProducs.map((props, idx) => (
+            <small className={'text--center display-block'}>
+              ※web1week...1週間で web サービスを作るハッカソンイベント。
+            </small>
+            {webService.eventProducts && webService.eventProducts.length && (
+              <div className="row padding-vert--lg">
+                {webService.eventProducts.map((props, idx) => (
                   <Product key={idx} {...props} />
                 ))}
               </div>
             )}
           </section>
-          {/* <section>
-            <h3 className="text--center decoration-line">作ってみようチャレンジ</h3>
-          </section> */}
-        </div>
+          <section>
+            <h3 className="text--center decoration-line">課題チャレンジ</h3>
+            <small className={'text--center display-block'}>
+              ※devChallenges...ユーザストーリーとデザインデータをもとに課題作品を作るチャレンジ。
+            </small>
+            {webService.challengeProducts &&
+              webService.challengeProducts.length && (
+                <div className="row padding-vert--lg">
+                  {webService.challengeProducts.map((props, idx) => (
+                    <Product key={idx} {...props} />
+                  ))}
+                </div>
+              )}
+          </section>
+        </section>
       </main>
     </Layout>
   );

@@ -5,16 +5,16 @@
 # TIL Docs: TIL活動のドキュメント化
 #
 # --ポートフォリオサイト--
-# Feat: 機能追加
-# Fix: バグ・typo・エラー修正
-# Refactor: リファクタリング・改善
-# Update: ポートフォリオデータ更新
-# Lib Update: ライブラリ・バージョン更新
-# Test: テストの追加・改善
-# Settings: 環境周りの設定の追加・改善
-# Docs: ドキュメント追加・更新
-# Remove: 不要な機能削除
-# Misc: その他
+# feat: 機能追加
+# fix: バグ・typo・エラー修正
+# refactor: リファクタリング・改善
+# update: ポートフォリオデータ更新
+# lib Update: ライブラリ・バージョン更新
+# test: テストの追加・改善
+# settings: 環境周りの設定の追加・改善
+# docs: ドキュメント追加・更新
+# remove: 不要な機能削除
+# misc: その他
 
 # ==== Format ====
 # type: Subject(#issue)

@@ -156,7 +156,7 @@ function SkillAndCareer() {
           </section>
           <section>
             <h3 className="text--center decoration-line">所持資格</h3>
-            <small className={clsx('text--center', styles.displayBlock)}>
+            <small className={'text--center display-block'}>
               ※バッジがある資格については、
               <a
                 href={siteConfig.customFields.url.credly}
@@ -169,7 +169,7 @@ function SkillAndCareer() {
             </small>
             {qualification && qualification.length && (
               <div className="padding-vert--lg">
-                <table className={styles.displayTable}>
+                <table className="display-table">
                   <thead>
                     <tr>
                       <th>名称</th>
@@ -188,12 +188,7 @@ function SkillAndCareer() {
         </section>
         <section className="container padding--md">
           <h2 className="text--center">経歴</h2>
-          <small
-            className={clsx(
-              'text--center padding-bottom--md',
-              styles.displayBlock
-            )}
-          >
+          <small className="text--center padding-bottom--md display-block">
             ※ここで書いている技術スタックは、実際に使われているもののうち、自分が関わった部分のみ記載しています。
           </small>
           <section>

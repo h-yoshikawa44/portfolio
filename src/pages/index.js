@@ -87,11 +87,13 @@ function Home() {
                     <p>
                       精神疾患持ちの Web プログラマー。
                       <br />
-                      2020年秋頃に退職してから療養していましたが、社会復帰に向けて少しずつ活動再開しています。
-                      <br />
-                      <br />
+                      2020年秋頃に退職してから療養していましたが、社会復帰に向けて勉強しながら復職活動中。
+                    </p>
+                    <p>
                       実務経験として、フロントエンド、バックエンドともに経験はありますが、
-                      いまいちスキルの中途半端感があるのでフロントエンド領域のスキルを伸ばそうかと思っています。
+                      <br />
+                      いまいちスキルの中途半端感があるのでフロントエンド領域のスキル（特に
+                      React 周辺）を伸ばそうと日々勉強しています。
                     </p>
                   </div>
                   <div className="card__footer">
@@ -104,7 +106,7 @@ function Home() {
                     <ul>
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.blog}
-                        text="ブログ"
+                        text="ブログ（技術以外の記事もあり）"
                       />
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.github}

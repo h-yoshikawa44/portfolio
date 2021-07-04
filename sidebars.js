@@ -6,42 +6,6 @@
  */
 
 module.exports = {
-  web: {
-    Web: [
-      'Web/web-overview',
-      'Web/web-work',
-      {
-        type: 'category',
-        label: '歴史',
-        items: [
-          'Web/History/web-before',
-          'Web/History/web-birth',
-          'Web/History/web-standardization',
-          'Web/History/web-api',
-          'Web/History/web-after',
-        ],
-      },
-      {
-        type: 'category',
-        label: 'REST',
-        items: [
-          'Web/Rest/web-architecture-style',
-          'Web/Rest/web-resource',
-          'Web/Rest/web-configration-style',
-        ],
-      },
-      {
-        type: 'category',
-        label: 'URI',
-        items: [
-          'Web/Uri/web-uri-basic',
-          'Web/Uri/web-uri-type',
-          'Web/Uri/web-uri-code',
-          'Web/Uri/web-uri-url-urn',
-        ],
-      },
-    ],
-  },
   linux: {
     Linux: [
       'Linux/linux-overview',

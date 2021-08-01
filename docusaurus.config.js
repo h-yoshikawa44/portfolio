@@ -30,6 +30,7 @@ module.exports = {
       logo: {
         alt: '獅子のロゴアイコン',
         src: 'img/lion-logo.svg',
+        srcDark: 'img/lion-logo_dark.svg',
       },
       items: [
         { to: '/skillandcareer', label: 'Skill & Career', position: 'left' },

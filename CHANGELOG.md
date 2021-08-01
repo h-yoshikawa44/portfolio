@@ -2,6 +2,15 @@
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2021-08-01
+### Changed
+- ダークモード時のカラースタイル調整(#19)
+  - ナビゲーション：ロゴアイコン、active 色、hover 色
+  - hero バナー：テキスト色
+  - 一部言語アイコン：白枠線
+  - TIL Docs：
+    - サイドバー：active 色
+    - テーブルコンテンツ：active 色、hover 色
+
 ### Updated
 - ポートフォリオ更新 - 2021/08(#17)
 

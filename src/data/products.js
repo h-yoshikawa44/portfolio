@@ -31,6 +31,20 @@ const eventProducts = [
 
 const challengeProducts = [
   {
+    productName: 'Random quote generator',
+    description: (
+      <>
+        devChallenges - Front-end Developer 課題その5。
+        <br />
+        QuoteGarden API を使用した、名言引用アプリを作るチャレンジ。
+      </>
+    ),
+    imageUrl:
+      'img/my-products/devchallenges/front-end/random-quote-generator.png',
+    url: 'https://random-quote-generator-h-yoshikawa44.vercel.app/',
+    githubUrl: 'https://github.com/h-yoshikawa44/random-quote-generator',
+  },
+  {
     productName: 'Todo app',
     description: (
       <>
@@ -40,8 +54,8 @@ const challengeProducts = [
       </>
     ),
     imageUrl: 'img/my-products/devchallenges/front-end/todo-app.png',
-    url: 'https://github.com/h-yoshikawa44/todo-app',
-    githubUrl: 'https://todo-app-h-yoshikawa44.vercel.app/',
+    url: 'https://todo-app-h-yoshikawa44.vercel.app',
+    githubUrl: 'https://github.com/h-yoshikawa44/todo-app',
   },
   {
     productName: 'Windbnb',
@@ -53,8 +67,8 @@ const challengeProducts = [
       </>
     ),
     imageUrl: 'img/my-products/devchallenges/front-end/windbnb.png',
-    url: 'https://github.com/h-yoshikawa44/windbnb',
-    githubUrl: 'https://windbnb-h-yoshikawa44.vercel.app/',
+    url: 'https://windbnb-h-yoshikawa44.vercel.app',
+    githubUrl: 'https://github.com/h-yoshikawa44/windbnb',
   },
   {
     productName: 'Input component',
@@ -66,8 +80,8 @@ const challengeProducts = [
       </>
     ),
     imageUrl: 'img/my-products/devchallenges/front-end/input-component.png',
-    url: 'https://github.com/h-yoshikawa44/input-component',
-    githubUrl: 'https://input-component-h-yoshikawa44.vercel.app/',
+    url: 'https://input-component-h-yoshikawa44.vercel.app',
+    githubUrl: 'https://github.com/h-yoshikawa44/input-component',
   },
   {
     productName: 'Button component',
@@ -79,8 +93,8 @@ const challengeProducts = [
       </>
     ),
     imageUrl: 'img/my-products/devchallenges/front-end/button-component.png',
-    url: 'https://github.com/h-yoshikawa44/button-component',
-    githubUrl: 'https://button-component-h-yoshikawa44.vercel.app/',
+    url: 'https://button-component-h-yoshikawa44.vercel.app',
+    githubUrl: 'https://github.com/h-yoshikawa44/button-component',
   },
 ];
 

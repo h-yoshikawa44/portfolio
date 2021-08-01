@@ -1,6 +1,18 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2021-08-01
+### Updated
+- ポートフォリオ更新 - 2021/08(#17)
+
+## 2021-07-04
+### TIL Docs・Removed
+- Web に関するページ削除(#3)
+
+## 2021-06-30
+### Updated
+- ポートフォリオ更新 - 2021/07(#13)
+
 ## 2021-05-14
 ### Updated
 - Docusaurus（2.0.0-alpha.72 → 2.0.0-beta.0）(#10)

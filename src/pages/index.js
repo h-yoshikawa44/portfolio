@@ -53,8 +53,7 @@ function Home() {
             <h3 className="text--center decoration-line">当サイトについて</h3>
             <div>
               <p>
-                Web プログラマーである h-yoshikawa44
-                のポートフォリオサイトです。
+                Web Developer である h-yoshikawa44 のポートフォリオサイトです。
                 <br />
                 経験スキルや実務経歴、個人開発の履歴、各種技術活動に関するアカウントのリンクなどを集約しています。
               </p>
@@ -62,7 +61,6 @@ function Home() {
           </section>
           <section>
             <h3 className="text--center decoration-line">管理人プロフィール</h3>
-            　
             <div>
               <div className="card-demo margin-vert--sm">
                 <div className="card shadow--tl">
@@ -85,15 +83,17 @@ function Home() {
                   </div>
                   <div className="card__body">
                     <p>
-                      精神疾患持ちの Web プログラマー。
+                      精神疾患持ちの Web Developer。
                       <br />
-                      2020年秋頃に退職してから療養していましたが、社会復帰に向けて勉強しながら復職活動中。
+                      2020年秋頃に前社を退職してから療養していましたが、社会復帰に向けて勉強しながら復職活動中。
                     </p>
                     <p>
                       実務経験として、フロントエンド、バックエンドともに経験はありますが、
                       <br />
-                      いまいちスキルの中途半端感があるのでフロントエンド領域のスキル（特に
-                      React 周辺）を伸ばそうと日々勉強しています。
+                      いまいちスキルの中途半端感があるのでフロントエンド領域のスキルを伸ばそうと日々勉強しています。
+                      <br />
+                      最近、メインで使用しているものは TypeScript × React、時に
+                      Next.js です。
                     </p>
                   </div>
                   <div className="card__footer">
@@ -107,6 +107,10 @@ function Home() {
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.blog}
                         text="ブログ（技術以外の記事もあり）"
+                      />
+                      <PersonalLinkItem
+                        url={siteConfig.customFields.url.wantedly}
+                        text="Wantedly"
                       />
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.github}

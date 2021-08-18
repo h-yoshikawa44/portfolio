@@ -29,7 +29,8 @@ export const careersAtFroide = [
       <>
         保守案件。飲食店内で使われる管理システム。
         <br />
-        開発環境、ドキュメント整備から着手。バグ対応や機能改善。
+        ドキュメントがほぼない状態からのスタートだったため、コード解析、開発環境の
+        Docker 化、 ドキュメント整備から着手し、バグ対応や既存機能改善など。
       </>
     ),
   },
@@ -82,6 +83,9 @@ export const careersAtFroide = [
         <br />
         実装部分を担当。既存 API にキャッシュの導入、決済に関わる API
         群の作成、社内ツールやバッチ作成など。
+        <br />
+        （自分にとって）はじめてのリモートチーム・スクラム体制、何度かの自社チーム体制変更、
+        日々技術のキャッチアップなど、慌ただしくはありつつ学びが多かった案件。
       </>
     ),
   },
@@ -99,6 +103,8 @@ export const careersAtFroide = [
         <br />
         実装部分を担当。既存システムを元に、一から構築して作成。フロントエンドとバックエンドは切り離されておらず、CakePHP
         でどちらも対応。
+        <br />
+        チーム体制が何度か変わったことに戸惑いながらも、新人なりに自分ができることを粛々と進めた。
       </>
     ),
   },
@@ -143,7 +149,7 @@ export const personalDevelopment = [
   {
     period: '2020/12 ～ 2021/05 ※現在停止中',
     title: 'OOUI-MEMO',
-    langAndFw: 'TypeScirpt / React / PHP / Laravel',
+    langAndFw: 'TypeScript / React / PHP / Laravel',
     db: 'MySQL',
     environment: 'Git / Docker / GitHub Actions',
     cloudService: 'Heroku',
@@ -157,17 +163,17 @@ export const personalDevelopment = [
         <br />
         構想自体は2020/08くらいからあったが、実際に積極的に活動を始めたのが2020/12頃。
         <br />
-        ※2021/06の時点で、devChallenges
-        の課題を通した基礎復習を優先しているため停止中です。
+        ※2021/08の時点で、devChallenges の課題を通した基礎復習と Recursion
+        でのコンピュータサイエンス学習を優先しているため停止中。
       </>
     ),
   },
   {
     period: '2020/09/07 ～ 2020/09/14',
     title: 'Close to 2（計算結果が一番「2」に近い式をあてるゲーム）',
-    langAndFw: 'JavaScirpt / React',
+    langAndFw: 'JavaScript → TypeScript / React',
     db: '',
-    environment: 'Git',
+    environment: 'Git / GitHub Actions',
     cloudService: 'GitHub Pages',
     other: '',
     description: (
@@ -175,15 +181,17 @@ export const personalDevelopment = [
         web1week（1週間でwebサービスを作るイベント）による、お題「2」の投稿作品。
         <br />
         9/12に元々作ろうとしていたものから当作品に移行したため、実質3日ほどで作った作品。
+        <br />
+        後に TypeScript 化 + カスタムフックを使ったリファクタリングを行った。
       </>
     ),
   },
   {
     period: '2020/05/18 ～ 2020/05/23',
     title: 'Jigsaw Like Puzzle（ジグソーパズルっぽいパズルゲーム）',
-    langAndFw: 'JavaScirpt / React',
+    langAndFw: 'JavaScript → TypeScript / React',
     db: '',
-    environment: 'Git / Docker',
+    environment: 'Git / GitHub Actions',
     cloudService: 'Firebase[Hosting]',
     other: '',
     description: (
@@ -192,6 +200,8 @@ export const personalDevelopment = [
         <br />
         canvas を扱うライブラリ Konva.js の React 版である React Konva
         というライブラリでパズル部分を構成。
+        <br />
+        後に TypeScript 化 + カスタムフックを使ったリファクタリングを行った。
       </>
     ),
   },

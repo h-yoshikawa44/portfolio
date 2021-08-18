@@ -12,6 +12,7 @@ module.exports = {
   customFields: {
     url: {
       blog: 'https://changeofpace.site',
+      wantedly: 'https://www.wantedly.com/id/h_yoshikawa44',
       github: 'https://github.com/h-yoshikawa44',
       twitter: 'https://twitter.com/yoshi44_lion',
       qiita: 'https://qiita.com/h-yoshikawa44',

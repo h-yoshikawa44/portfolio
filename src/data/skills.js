@@ -94,7 +94,7 @@ export const langAndframewarks = [
     Svg: require('../../static/img/logo-icons/typescript-icon.svg').default,
     description: (
       <>
-        自分の中でフロント側のコードを書く際のデファクトにしたい言語で、今年から使い始めた。
+        自分の中でフロントエンド側のコードを書く際のデファクトにしたい言語で、今年から使い始めた。
         <br />
         個人開発や課題をこなす中で使用。
       </>
@@ -107,7 +107,8 @@ export const langAndframewarks = [
       <>
         実務使用経験あり。
         <br />
-        自分のスキルのうち、フロントでメインにしたい技術。
+        自分のスキルのうち、フロントエンドでメインにしたい技術。投稿している技術記事は
+        React 記事が多い。
       </>
     ),
   },
@@ -118,7 +119,7 @@ export const langAndframewarks = [
       <>
         当サイトで使用。
         <br />
-        v1は少々使いづらさを感じたので、v2を使用。
+        v1 は少々使いづらさを感じたので、v2を使用。
       </>
     ),
   },

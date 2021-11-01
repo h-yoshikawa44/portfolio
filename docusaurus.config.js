@@ -73,6 +73,10 @@ module.exports = {
               href: 'https://changeofpace.site',
             },
             {
+              label: 'Wantedly',
+              href: 'https://www.wantedly.com/id/h_yoshikawa44',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/h-yoshikawa44',
             },

@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import PropTypes from 'prop-types';
 import styles from './index.module.css';
-import { webService } from '../../data/products';
+import { webSite, webService } from '../../data/products';
 
 Product.propTypes = {
   productName: PropTypes.string,
@@ -38,14 +38,16 @@ function Product({ productName, description, imageUrl, url, githubUrl }) {
             >
               作品リンク
             </a>
-            <a
-              className="button button--small button--secondary button--block"
-              href={githubUrl}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              GitHub
-            </a>
+            {githubUrl && (
+              <a
+                className="button button--small button--secondary button--block"
+                href={githubUrl}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                GitHub
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -59,22 +61,17 @@ function MyProducts() {
       <header className="hero hero--primary hero-banner">
         <div className="container">
           <h1 className="hero__title">My Products</h1>
-          <p className="hero__subtitle">
-            個人で作成した成果物など（ブログは除く）
-          </p>
+          <p className="hero__subtitle">個人で作成した成果物など</p>
         </div>
       </header>
       <main>
         <section className="container padding--md">
-          <h2 className="text--center">Webサービス</h2>
+          <h2 className="text--center">Web サイト</h2>
           <section>
-            <h3 className="text--center decoration-line">イベント参加</h3>
-            <small className={'text--center display-block'}>
-              ※web1week...1週間で web サービスを作るハッカソンイベント。
-            </small>
-            {webService.eventProducts && webService.eventProducts.length && (
+            <h3 className="text--center decoration-line">運営</h3>
+            {webSite.siteMyProducts && webSite.siteMyProducts.length && (
               <div className="row padding-vert--lg">
-                {webService.eventProducts.map((props, idx) => (
+                {webSite.siteMyProducts.map((props, idx) => (
                   <Product key={idx} {...props} />
                 ))}
               </div>
@@ -85,10 +82,41 @@ function MyProducts() {
             <small className={'text--center display-block'}>
               ※devChallenges...ユーザストーリーとデザインデータをもとに課題作品を作るチャレンジ。
             </small>
-            {webService.challengeProducts &&
-              webService.challengeProducts.length && (
+            {webSite.siteChallengeProducts &&
+              webSite.siteChallengeProducts.length && (
                 <div className="row padding-vert--lg">
-                  {webService.challengeProducts.map((props, idx) => (
+                  {webSite.siteChallengeProducts.map((props, idx) => (
+                    <Product key={idx} {...props} />
+                  ))}
+                </div>
+              )}
+          </section>
+        </section>
+        <section className="container padding--md">
+          <h2 className="text--center">Web サービス</h2>
+          <section>
+            <h3 className="text--center decoration-line">イベント参加</h3>
+            <small className={'text--center display-block'}>
+              ※web1week...1週間で web サービスを作るハッカソンイベント。
+            </small>
+            {webService.serviceEventProducts &&
+              webService.serviceEventProducts.length && (
+                <div className="row padding-vert--lg">
+                  {webService.serviceEventProducts.map((props, idx) => (
+                    <Product key={idx} {...props} />
+                  ))}
+                </div>
+              )}
+          </section>
+          <section>
+            <h3 className="text--center decoration-line">課題チャレンジ</h3>
+            <small className={'text--center display-block'}>
+              ※devChallenges...ユーザストーリーとデザインデータをもとに課題作品を作るチャレンジ。
+            </small>
+            {webService.serviceChallengeProducts &&
+              webService.serviceChallengeProducts.length && (
+                <div className="row padding-vert--lg">
+                  {webService.serviceChallengeProducts.map((props, idx) => (
                     <Product key={idx} {...props} />
                   ))}
                 </div>

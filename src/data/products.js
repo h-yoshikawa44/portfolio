@@ -1,6 +1,65 @@
 import React from 'react';
 
-const eventProducts = [
+const siteMyProducts = [
+  {
+    productName: 'Change Of Pace',
+    description: (
+      <>
+        Jekyll 製の個人ブログ（リポジトリは非公開）
+        <br />
+        テーマは Hydeout を使用 + 細かなカスタム。
+      </>
+    ),
+    imageUrl: 'img/my-products/change-of-pace/overview.png',
+    url: 'https://changeofpace.site/',
+    githubUrl: '',
+  },
+];
+
+const siteChallengeProducts = [
+  {
+    productName: 'Interior Consultant',
+    description: (
+      <>
+        devChallenges - Responsive Web 課題その3。
+        <br />
+        インテリアサービスサイトのトップページ + メニューを作成するチャレンジ。
+      </>
+    ),
+    imageUrl:
+      'img/my-products/devchallenges/responsive-web/interior-consultant.png',
+    url: 'https://h-yoshikawa44.github.io/ch-interior-consultant/',
+    githubUrl: 'https://github.com/h-yoshikawa44/ch-interior-consultant',
+  },
+  {
+    productName: 'My team page',
+    description: (
+      <>
+        devChallenges - Responsive Web 課題その2。
+        <br />
+        チームメンバー一覧ページを作成するチャレンジ。
+      </>
+    ),
+    imageUrl: 'img/my-products/devchallenges/responsive-web/my-team-page.png',
+    url: 'https://h-yoshikawa44.github.io/ch-my-team-page/',
+    githubUrl: 'https://github.com/h-yoshikawa44/ch-my-team-page',
+  },
+  {
+    productName: '404 Not Found',
+    description: (
+      <>
+        devChallenges - Responsive Web 課題その1。
+        <br />
+        404ページを作成するチャレンジ。
+      </>
+    ),
+    imageUrl: 'img/my-products/devchallenges/responsive-web/404-not-found.png',
+    url: 'https://h-yoshikawa44.github.io/ch-404-not-found/',
+    githubUrl: 'https://github.com/h-yoshikawa44/ch-404-not-found',
+  },
+];
+
+const serviceEventProducts = [
   {
     productName: 'Close to 2',
     description: (
@@ -29,7 +88,7 @@ const eventProducts = [
   },
 ];
 
-const challengeProducts = [
+const serviceChallengeProducts = [
   {
     productName: 'Random quote generator',
     description: (
@@ -98,6 +157,7 @@ const challengeProducts = [
   },
 ];
 
-const webService = { eventProducts, challengeProducts };
+const webSite = { siteMyProducts, siteChallengeProducts };
+const webService = { serviceEventProducts, serviceChallengeProducts };
 
-export { webService };
+export { webSite, webService };

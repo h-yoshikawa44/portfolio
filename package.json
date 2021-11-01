@@ -16,8 +16,8 @@
     "lint:eslint": "yarn run -s eslint './src/**/*.{js,jsx,ts,tsx}'",
     "lint:prettier": "yarn run -s prettier --check .",
     "fix": "yarn fix:eslint && yarn fix:prettier",
-    "fix:eslint": "yarn lint:eslint -- --fix",
-    "fix:prettier": "yarn lint:prettier -- --write"
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:prettier": "yarn lint:prettier --write"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.0",

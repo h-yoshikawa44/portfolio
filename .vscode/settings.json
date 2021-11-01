@@ -10,5 +10,5 @@
   "[json]": {
     "editor.formatOnSave": true
   },
-  "eslint.packageManager": "yarn",
+  "eslint.packageManager": "yarn"
 }

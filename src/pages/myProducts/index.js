@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import PropTypes from 'prop-types';
+import clsx from 'clsx';
 import styles from './index.module.css';
 import { webSite, webService } from '../../data/products';
 
@@ -16,7 +17,7 @@ Product.propTypes = {
 function Product({ productName, description, imageUrl, url, githubUrl }) {
   return (
     <div className="col col--4 margin-bottom--lg">
-      <div className="card shadow--lw">
+      <div className="card shadow--lw-custom">
         <div className="text--center card__image">
           <img
             src={useBaseUrl(imageUrl)}
@@ -24,7 +25,7 @@ function Product({ productName, description, imageUrl, url, githubUrl }) {
             className={styles.productImg}
           />
         </div>
-        <div className="card__body">
+        <div className={clsx('card__body', styles.cardBodyCustom)}>
           <h4>{productName}</h4>
           <small>{description}</small>
         </div>

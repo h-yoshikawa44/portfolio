@@ -4,3 +4,13 @@
   object-fit: cover;
   object-position: 50% 0;
 }
+
+.cardBodyCustom {
+  height: 128px;
+}
+
+@media (max-width: 996px) {
+  .cardBodyCustom {
+    height: initial;
+  }
+}

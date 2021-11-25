@@ -20,7 +20,7 @@ export const careersAtFroide = [
   {
     period: '2020/04、2020/06 ～ 2020/09',
     title: '勤怠/入店管理システム',
-    langAndFw: 'Ruby / Rails',
+    langAndFw: 'Ruby / CoffeeScript / Rails',
     db: 'MySQL / Redis',
     environment: 'Git / Docker / Circle CI / Capistrano',
     cloudService: 'AWS[EC2, RDS, Cognito]',

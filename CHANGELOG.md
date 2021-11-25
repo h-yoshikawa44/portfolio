@@ -15,6 +15,9 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
     - Edie homepage（devChallenges - Responsive Web 編）
 - Node.js：14.17.3 → 16.13.0
 
+### Other
+- ESLint・Prettier の Pre Commit 設定(#27)
+
 ## 2021-11-01
 ### Updated
 - ポートフォリオ更新 - 2021/11(#25)

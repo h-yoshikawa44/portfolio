@@ -49,5 +49,9 @@
     "prettier": "^2.2.1",
     "textlint": "^11.9.0",
     "textlint-rule-preset-ja-technical-writing": "^4.0.1"
+  },
+  "volta": {
+    "node": "16.13.0",
+    "yarn": "1.22.17"
   }
 }

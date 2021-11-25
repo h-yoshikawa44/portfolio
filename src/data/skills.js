@@ -63,7 +63,7 @@ export const langAndframewarks = [
       <>
         基礎復習で勉強中。
         <br />
-        素の HTML というよりは、React の JSX として書いていることが多い。
+        そのうち、資格にも挑戦してみようか検討中。
       </>
     ),
   },
@@ -74,7 +74,7 @@ export const langAndframewarks = [
       <>
         基礎復習で勉強中。
         <br />
-        最近だと emotion の中で書いている。
+        emotion の中で書いていたりもする。
       </>
     ),
   },

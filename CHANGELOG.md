@@ -2,38 +2,41 @@
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2021-11-25
-
 ### Changed
 - MyProductsのカードの影と説明文部分の高さ調整(#27)
 
 ### Updated
+- Node.js：14.17.3 → 16.13.0
+
+### Data Updated
 - ポートフォリオ更新 - 2021/11 後期(#27)
   - MyProducts
     - Recipe page（devChallenges - Responsive Web 編）
     - My Gallery（devChallenges - Responsive Web 編）
     - Checkout Page（devChallenges - Responsive Web 編）
     - Edie homepage（devChallenges - Responsive Web 編）
-- Node.js：14.17.3 → 16.13.0
 
-### Other
+### Development Added
 - ESLint・Prettier の Pre Commit 設定(#27)
 
 ## 2021-11-01
 ### Updated
+- Node.js：14.16.0 → 14.17.3
+
+### Data Updated
 - ポートフォリオ更新 - 2021/11(#25)
   - MyProducts
     - Change Of Pace（※ブログ自体は以前よりあったが、このページには載せてなかった）
     - 404 Not Found（devChallenges - Responsive Web 編）
     - My team page（devChallenges - Responsive Web 編）
     - Interior Consultant（devChallenges - Responsive Web 編）
-- Node.js：14.16.0 → 14.17.3
 
 ## 2021-09-28
-### Updated
+### Data Updated
 - ポートフォリオ更新 - 2021/10(#23)
 
 ## 2021-08-18
-### Updated
+### Data Updated
 - ポートフォリオ更新 - 2021/08 中間(#21)
   - アカウントリンクに Wantedly を追加
   - web1week 作品の技術構成を更新（TypeScript 化したので）
@@ -48,17 +51,17 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
     - サイドバー：active 色
     - テーブルコンテンツ：active 色、hover 色
 
-### Updated
+### Data Updated
 - ポートフォリオ更新 - 2021/08(#17)
   - MyProducts：
     - Random quote generator（devChallenges - Front-end Developer 編）
 
 ## 2021-07-04
-### TIL Docs・Removed
+### TIL Docs Removed
 - Web に関するページ削除(#3)
 
 ## 2021-06-30
-### Updated
+### Data Updated
 - ポートフォリオ更新 - 2021/07(#13)
   - MyProducts：
     - Button component（devChallenges - Front-end Developer 編）
@@ -70,31 +73,34 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 ### Updated
 - Docusaurus（2.0.0-alpha.72 → 2.0.0-beta.0）(#10)
 
-### Other
+### Changed
 - classnames を clsx に移行(#10)
 - SVG アイコン使用時、インライン SVG 形式になるよう修正(#10)
 
 ## 2021-05-09
-### Added
+### Data Added
 - スキル・経歴ページに所持資格の欄を追加(#8)
 
-### Other
+### Development Added
 - ESLint + Prettier 導入(#7)
 
 ## 2021-05-01
-### Updated
-- ポートフォリオ更新 - 2021/05(#4)
 
 ### Changed
 - 経歴の構成を会社ごとと個人開発とで分離(#5)
+
+### Fixed
 - 一部影スタイルの修正(#5)
+
+### Data Updated
+- ポートフォリオ更新 - 2021/05(#4)
 
 ## 2021-04-02
 ### Updated
 - Docusaurus（2.0.0-alpha.65 → 2.0.0-alpha.72）(#1)
 - React（16.12.0 → 17.0.1）(#1)
 
-### Other
+### Development Chaged
 - TIL リポジトリから分離（当リポジトリ作成）
 
 ## 2021-02-15
@@ -144,12 +150,14 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 ## 2020-04-11
 ### Added
 - 独自ドメイン割り当て
-- Google Analytics 導入
-- Google Search Console 導入
 - サイトマップ導入
 
+### Development Added
+- Google Analytics 導入
+- Google Search Console 導入
+
 ## 2020-01-19
-### Other
+### Development Added
 - Textlint 導入
 
 ## 2020-01-13

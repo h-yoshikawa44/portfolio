@@ -14,17 +14,17 @@ import {
 import { careersAtFroide, personalDevelopment } from '../../data/careers';
 
 Skill.propTypes = {
-  Svg: PropTypes.func,
+  imgUrl: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.element,
 };
 
-function Skill({ Svg, title, description }) {
+function Skill({ imgUrl, title, description }) {
   return (
     <div className="col col--3">
-      {Svg && (
+      {imgUrl && (
         <div className="text--center">
-          <Svg className={styles.skillImage} alt={title} />
+          <img className={styles.skillImage} src={imgUrl} alt={title} />
         </div>
       )}
       <h4 className="text--center">{title}</h4>
@@ -169,7 +169,7 @@ function SkillAndCareer() {
             </small>
             {qualification && qualification.length && (
               <div className="padding-vert--lg">
-                <table className="display-table">
+                <table className="display-table full-width">
                   <thead>
                     <tr>
                       <th>名称</th>

@@ -1,6 +1,16 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2021-12-15
+### Updated
+- React：17.0.1 → 17.0.2(#29)
+- Docusaurus：2.0.0-beta.0 → 2.0.0-beta.13(#29)
+
+### Development Changed
+- コミットメッセージの type を入れ替えた(#29)
+  - ポートフォリオ更新：update → data update
+  - ライブラリアプデ： lib update → update
+
 ## 2021-11-25
 ### Changed
 - MyProductsのカードの影と説明文部分の高さ調整(#27)
@@ -98,7 +108,7 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 ## 2021-04-02
 ### Updated
 - Docusaurus（2.0.0-alpha.65 → 2.0.0-alpha.72）(#1)
-- React（16.12.0 → 17.0.1）(#1)
+- React（16.12.0 → 17.0.2）(#1)
 
 ### Development Chaged
 - TIL リポジトリから分離（当リポジトリ作成）

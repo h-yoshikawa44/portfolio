@@ -86,3 +86,7 @@ html[data-theme='dark'] .hero--primary {
 .display-table {
   display: table;
 }
+
+.full-width {
+  width: 100%;
+}

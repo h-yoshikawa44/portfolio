@@ -7,7 +7,6 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  // organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'portfolio', // Usually your repo name.
   customFields: {
     url: {
@@ -22,9 +21,9 @@ module.exports = {
     },
   },
   themeConfig: {
-    prism: {
-      additionalLanguages: ['docker', 'java', 'php'],
-    },
+    // prism: {
+    //   additionalLanguages: ['docker', 'java', 'php'],
+    // },
     image: 'img/ogp.png',
     navbar: {
       title: "h-yoshikawa44's Portfolio",
@@ -36,7 +35,7 @@ module.exports = {
       items: [
         { to: '/skillandcareer', label: 'Skill & Career', position: 'left' },
         { to: '/myproducts', label: 'MyProducts', position: 'left' },
-        { to: 'tilTop', label: 'TIL', position: 'left' },
+        // { to: 'tilTop', label: 'TIL', position: 'left' },
         {
           href: 'https://changeofpace.site',
           label: 'Blog',

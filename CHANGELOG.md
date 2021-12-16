@@ -2,9 +2,13 @@
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2021-12-15
+
 ### Updated
 - React：17.0.1 → 17.0.2(#29)
 - Docusaurus：2.0.0-beta.0 → 2.0.0-beta.13(#29)
+
+### TIL Docs Removed
+- 仕切り直したいので、一旦全ページ削除(#3)
 
 ### Development Changed
 - コミットメッセージの type を入れ替えた(#29)

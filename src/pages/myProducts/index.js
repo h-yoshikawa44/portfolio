@@ -18,13 +18,13 @@ function Product({ productName, description, imageUrl, url, githubUrl }) {
   return (
     <div className="col col--4 margin-bottom--lg">
       <div className="card shadow--lw-custom">
-        <div className="text--center card__image">
+        <p className="text--center card__image">
           <img
             src={useBaseUrl(imageUrl)}
             alt={productName}
             className={styles.productImg}
           />
-        </div>
+        </p>
         <div className={clsx('card__body', styles.cardBodyCustom)}>
           <h4>{productName}</h4>
           <small>{description}</small>

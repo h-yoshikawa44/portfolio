@@ -21,14 +21,14 @@ Skill.propTypes = {
 
 function Skill({ imgUrl, title, description }) {
   return (
-    <div className="col col--3">
+    <div className="col col--3 text--center">
       {imgUrl && (
-        <div className="text--center">
+        <p className={styles.skillImageBlock}>
           <img className={styles.skillImage} src={imgUrl} alt={title} />
-        </div>
+        </p>
       )}
-      <h4 className="text--center">{title}</h4>
-      <p className="text--center">{description}</p>
+      <h4>{title}</h4>
+      <p>{description}</p>
     </div>
   );
 }

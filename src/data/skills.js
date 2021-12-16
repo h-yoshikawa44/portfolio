@@ -3,7 +3,7 @@ import React from 'react';
 const editors = [
   {
     title: 'Visual Studio Code',
-    imgUrl: '/img/logo-icons/visual-studio-code.svg',
+    imgUrl: 'img/logo-icons/visual-studio-code.svg',
     description: (
       <>
         Java 以外の言語のコーディングで使用。
@@ -14,7 +14,7 @@ const editors = [
   },
   {
     title: 'Eclipse',
-    imgUrl: '/img/logo-icons/eclipse.svg',
+    imgUrl: 'img/logo-icons/eclipse.svg',
     description: (
       <>
         Java のコーディングで使用。
@@ -25,7 +25,7 @@ const editors = [
   },
   {
     title: 'Stoplight Studio',
-    imgUrl: '/img/logo-icons/stoplight.svg',
+    imgUrl: 'img/logo-icons/stoplight.svg',
     description: <>最近、個人開発で使い始めた OpenAPI 設計エディタ。</>,
   },
 ];
@@ -33,7 +33,7 @@ const editors = [
 export const environments = [
   {
     title: 'Git',
-    imgUrl: '/img/logo-icons/git-icon.svg',
+    imgUrl: 'img/logo-icons/git-icon.svg',
     description: (
       <>
         普段の案件業務から、個人開発にわたり使用。
@@ -44,7 +44,7 @@ export const environments = [
   },
   {
     title: 'Docker',
-    imgUrl: '/img/logo-icons/docker-icon.svg',
+    imgUrl: 'img/logo-icons/docker-icon.svg',
     description: (
       <>
         実務使用経験あり。
@@ -58,7 +58,7 @@ export const environments = [
 const langAndframewarks = [
   {
     title: 'HTML',
-    imgUrl: '/img/logo-icons/html-5.svg',
+    imgUrl: 'img/logo-icons/html-5.svg',
     description: (
       <>
         基礎復習で勉強中。
@@ -69,7 +69,7 @@ const langAndframewarks = [
   },
   {
     title: 'CSS',
-    imgUrl: '/img/logo-icons/css-3.svg',
+    imgUrl: 'img/logo-icons/css-3.svg',
     description: (
       <>
         基礎復習で勉強中。
@@ -80,7 +80,7 @@ const langAndframewarks = [
   },
   {
     title: 'JavaScript',
-    imgUrl: '/img/logo-icons/javascript.svg',
+    imgUrl: 'img/logo-icons/javascript.svg',
     description: (
       <>
         実務使用経験ありであるが、基本的にフロントのみ。
@@ -91,7 +91,7 @@ const langAndframewarks = [
   },
   {
     title: 'TypeScript',
-    imgUrl: '/img/logo-icons/typescript-icon.svg',
+    imgUrl: 'img/logo-icons/typescript-icon.svg',
     description: (
       <>
         自分の中でフロントエンド側のコードを書く際のデファクトにしたい言語で、今年から使い始めた。
@@ -102,7 +102,7 @@ const langAndframewarks = [
   },
   {
     title: 'React',
-    imgUrl: '/img/logo-icons/react.svg',
+    imgUrl: 'img/logo-icons/react.svg',
     description: (
       <>
         実務使用経験あり。
@@ -114,7 +114,7 @@ const langAndframewarks = [
   },
   {
     title: 'Docusaurus',
-    imgUrl: '/img/logo-icons/docusaurus.svg',
+    imgUrl: 'img/logo-icons/docusaurus.svg',
     description: (
       <>
         当サイトで使用。
@@ -125,7 +125,7 @@ const langAndframewarks = [
   },
   {
     title: 'Next.js',
-    imgUrl: '/img/logo-icons/nextjs-icon.svg',
+    imgUrl: 'img/logo-icons/nextjs-icon.svg',
     description: (
       <>
         今年、個人勉強や課題をこなす中で使用し始めたフレームワーク。
@@ -136,7 +136,7 @@ const langAndframewarks = [
   },
   {
     title: 'Java',
-    imgUrl: '/img/logo-icons/java.svg',
+    imgUrl: 'img/logo-icons/java.svg',
     description: (
       <>
         実務使用経験あり。
@@ -149,7 +149,7 @@ const langAndframewarks = [
   },
   {
     title: 'Spring',
-    imgUrl: '/img/logo-icons/spring-icon.svg',
+    imgUrl: 'img/logo-icons/spring-icon.svg',
     description: (
       <>
         実務使用経験あり。
@@ -160,7 +160,7 @@ const langAndframewarks = [
   },
   {
     title: 'PHP',
-    imgUrl: '/img/logo-icons/php.svg',
+    imgUrl: 'img/logo-icons/php.svg',
     description: (
       <>
         実務使用経験あり。
@@ -171,7 +171,7 @@ const langAndframewarks = [
   },
   {
     title: 'CakePHP',
-    imgUrl: '/img/logo-icons/cakephp.svg',
+    imgUrl: 'img/logo-icons/cakephp.svg',
     description: (
       <>
         実務使用経験あり。
@@ -182,7 +182,7 @@ const langAndframewarks = [
   },
   {
     title: 'Laravel',
-    imgUrl: '/img/logo-icons/laravel.svg',
+    imgUrl: 'img/logo-icons/laravel.svg',
     description: (
       <>
         過去に個人勉強していたことがあるフレームワーク。
@@ -193,7 +193,7 @@ const langAndframewarks = [
   },
   {
     title: 'Python',
-    imgUrl: '/img/logo-icons/python.svg',
+    imgUrl: 'img/logo-icons/python.svg',
     description: (
       <>
         実務使用経験あり。
@@ -204,17 +204,17 @@ const langAndframewarks = [
   },
   {
     title: 'Ruby',
-    imgUrl: '/img/logo-icons/ruby.svg',
+    imgUrl: 'img/logo-icons/ruby.svg',
     description: <>保守案件での業務使用経験あり。</>,
   },
   {
     title: 'Rails',
-    imgUrl: '/img/logo-icons/rails.svg',
+    imgUrl: 'img/logo-icons/rails.svg',
     description: <>保守案件での業務使用経験あり。</>,
   },
   {
     title: 'Jekyll',
-    imgUrl: '/img/logo-icons/jekyll.svg',
+    imgUrl: 'img/logo-icons/jekyll.svg',
     description: (
       <>
         自ブログで使用。
@@ -225,7 +225,7 @@ const langAndframewarks = [
   },
   {
     title: 'C#',
-    imgUrl: '/img/logo-icons/c-sharp.svg',
+    imgUrl: 'img/logo-icons/c-sharp.svg',
     description: <>研修で学んだ程度。</>,
   },
 ];
@@ -233,7 +233,7 @@ const langAndframewarks = [
 const database = [
   {
     title: 'MySQL',
-    imgUrl: '/img/logo-icons/mysql.svg',
+    imgUrl: 'img/logo-icons/mysql.svg',
     description: <>実務使用経験あり。</>,
   },
 ];

@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import PropTypes from 'prop-types';
 import styles from './index.module.css';
 import {
@@ -21,14 +21,18 @@ Skill.propTypes = {
 
 function Skill({ imgUrl, title, description }) {
   return (
-    <div className="col col--3">
+    <div className="col col--3 text--center">
       {imgUrl && (
-        <div className="text--center">
-          <img className={styles.skillImage} src={imgUrl} alt={title} />
-        </div>
+        <p className={styles.skillImageBlock}>
+          <img
+            className={styles.skillImage}
+            src={useBaseUrl(imgUrl)}
+            alt={title}
+          />
+        </p>
       )}
-      <h4 className="text--center">{title}</h4>
-      <p className="text--center">{description}</p>
+      <h4>{title}</h4>
+      <p>{description}</p>
     </div>
   );
 }

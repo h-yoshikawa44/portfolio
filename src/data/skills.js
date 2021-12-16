@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const editors = [
+const editors = [
   {
     title: 'Visual Studio Code',
     imgUrl: 'img/logo-icons/visual-studio-code.svg',
@@ -55,7 +55,7 @@ export const environments = [
   },
 ];
 
-export const langAndframewarks = [
+const langAndframewarks = [
   {
     title: 'HTML',
     imgUrl: 'img/logo-icons/html-5.svg',
@@ -230,7 +230,7 @@ export const langAndframewarks = [
   },
 ];
 
-export const database = [
+const database = [
   {
     title: 'MySQL',
     imgUrl: 'img/logo-icons/mysql.svg',
@@ -238,7 +238,7 @@ export const database = [
   },
 ];
 
-export const qualification = [
+const qualification = [
   {
     name: 'AWS Certified Solutions Architect – Associate',
     date: '2019/08',
@@ -260,3 +260,5 @@ export const qualification = [
     date: '2016/11',
   },
 ];
+
+export { editors, langAndframewarks, database, qualification };

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const careersAtFroide = [
+const careersAtFroide = [
   {
     period: '2020/10',
     title: '退職',
@@ -145,7 +145,7 @@ export const careersAtFroide = [
   },
 ];
 
-export const personalDevelopment = [
+const personalDevelopment = [
   {
     period: '2020/12 ～ 2021/05 ※現在停止中',
     title: 'OOUI-MEMO',
@@ -206,3 +206,5 @@ export const personalDevelopment = [
     ),
   },
 ];
+
+export { careersAtFroide, personalDevelopment };

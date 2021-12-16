@@ -1,4 +1,13 @@
-.skillImage {
+.skillImageBlock {
   height: 100px;
   width: 100px;
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillImage {
+  max-width: 100%;
+  max-height: 100%;
 }

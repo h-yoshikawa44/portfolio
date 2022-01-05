@@ -1,6 +1,16 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2022-01-05
+### Fixed
+- カードコンポーネントの画像 margin を調整(#37)
+- 画像最適化対応(#33)
+
+### Data Updated
+- ポートフォリオ更新 - 2022/01(#37)
+  - MyProducts
+    - Portfolio（devChallenges - Responsive Web 編）
+
 ## 2021-12-16
 ### Fixed
 - 本番環境のスキル＆経歴ページで、各種アイコン画像が読み込めなくなっていた問題修正(#29)

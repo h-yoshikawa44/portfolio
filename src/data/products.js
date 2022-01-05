@@ -18,6 +18,19 @@ const siteMyProducts = [
 
 const siteChallengeProducts = [
   {
+    productName: 'Portfolio',
+    description: (
+      <>
+        devChallenges - Responsive Web 編・課題その8。
+        <br />
+        ポートフォリオページを作成するチャレンジ。
+      </>
+    ),
+    imageUrl: 'img/my-products/devchallenges/responsive-web/portfolio.png',
+    url: 'http://ch-portfolio.vercel.app/',
+    githubUrl: 'https://github.com/h-yoshikawa44/ch-portfolio',
+  },
+  {
     productName: 'Edie homepage',
     description: (
       <>

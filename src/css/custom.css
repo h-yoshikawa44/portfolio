@@ -90,3 +90,7 @@ html[data-theme='dark'] .hero--primary {
 .full-width {
   width: 100%;
 }
+
+p.card__image {
+  margin: 0;
+}

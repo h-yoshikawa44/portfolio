@@ -1,6 +1,14 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2022-02-03
+### Data Updated
+- ポートフォリオ更新 - 2022/02(#40)
+  - プロフィール更新
+  - MyProducts
+    - Country quiz（devChallenges - Front-end 編）
+    - Weather app（devChallenges - Front-end 編）
+
 ## 2022-01-05
 ### Fixed
 - カードコンポーネントの画像 margin を調整(#37)

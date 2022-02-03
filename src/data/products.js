@@ -27,7 +27,7 @@ const siteChallengeProducts = [
       </>
     ),
     imageUrl: 'img/my-products/devchallenges/responsive-web/portfolio.png',
-    url: 'http://ch-portfolio.vercel.app/',
+    url: 'https://ch-portfolio-h-yoshikawa44.vercel.app/',
     githubUrl: 'https://github.com/h-yoshikawa44/ch-portfolio',
   },
   {
@@ -154,6 +154,32 @@ const serviceEventProducts = [
 ];
 
 const serviceChallengeProducts = [
+  {
+    productName: 'Weather app',
+    description: (
+      <>
+        devChallenges - Front-end Developer 編・課題その7。
+        <br />
+        MetaWeather API を使用した、天気予報アプリを作るチャレンジ。
+      </>
+    ),
+    imageUrl: 'img/my-products/devchallenges/front-end/weather-app.png',
+    url: 'https://ch-weather-app-h-yoshikawa44.vercel.app/',
+    githubUrl: 'https://github.com/h-yoshikawa44/ch-weather-app',
+  },
+  {
+    productName: 'Country quiz',
+    description: (
+      <>
+        devChallenges - Front-end Developer 編・課題その6。
+        <br />
+        REST COUNTRIES API を使用した、国情報クイズアプリを作るチャレンジ。
+      </>
+    ),
+    imageUrl: 'img/my-products/devchallenges/front-end/country-quiz.png',
+    url: 'https://ch-country-quiz-h-yoshikawa44.vercel.app/',
+    githubUrl: 'https://github.com/h-yoshikawa44/ch-country-quiz',
+  },
   {
     productName: 'Random quote generator',
     description: (

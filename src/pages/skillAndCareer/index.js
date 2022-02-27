@@ -11,7 +11,11 @@ import {
   database,
   qualification,
 } from '../../data/skills';
-import { careersAtFroide, personalDevelopment } from '../../data/careers';
+import {
+  careersAtYumemi,
+  careersAtFroide,
+  personalDevelopment,
+} from '../../data/careers';
 
 Skill.propTypes = {
   imgUrl: PropTypes.string,
@@ -195,6 +199,18 @@ function SkillAndCareer() {
           <small className="text--center padding-bottom--md display-block">
             ※ここで書いている技術スタックは、実際に使われているもののうち、自分が関わった部分のみ記載しています。
           </small>
+          <section>
+            <h3 className="text--center decoration-line">
+              株式会社ゆめみ 【2022/02中旬 ～ 】
+            </h3>
+            {careersAtYumemi && careersAtFroide.length && (
+              <div className="padding-vert--md">
+                {careersAtYumemi.map((props, idx) => (
+                  <Career key={idx} {...props} />
+                ))}
+              </div>
+            )}
+          </section>
           <section>
             <h3 className="text--center decoration-line">
               フロイデ株式会社 【2017/10 ～ 2020/10】

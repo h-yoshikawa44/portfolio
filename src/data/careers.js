@@ -1,5 +1,24 @@
 import React from 'react';
 
+const careersAtYumemi = [
+  {
+    period: '2022/02中旬',
+    title: '入社',
+    langAndFw: '',
+    db: '',
+    environment: '',
+    cloudService: '',
+    other: '',
+    description: (
+      <>
+        療養に専念後の約8か月の復職活動を経て、フロントエンドエンジニアとして入社。
+        <br />
+        案件に入るまでは、前勉強として Next.js やスクラムの勉強に勤しむ。
+      </>
+    ),
+  },
+];
+
 const careersAtFroide = [
   {
     period: '2020/10',
@@ -207,4 +226,4 @@ const personalDevelopment = [
   },
 ];
 
-export { careersAtFroide, personalDevelopment };
+export { careersAtYumemi, careersAtFroide, personalDevelopment };

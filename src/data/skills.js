@@ -26,7 +26,7 @@ const editors = [
   {
     title: 'Stoplight Studio',
     imgUrl: 'img/logo-icons/stoplight.svg',
-    description: <>最近、個人開発で使い始めた OpenAPI 設計エディタ。</>,
+    description: <>個人開発で少し使っていた OpenAPI 設計エディタ。</>,
   },
 ];
 
@@ -94,9 +94,9 @@ const langAndframewarks = [
     imgUrl: 'img/logo-icons/typescript-icon.svg',
     description: (
       <>
-        自分の中でフロントエンド側のコードを書く際のデファクトにしたい言語で、今年から使い始めた。
+        自分の中でフロントエンド側のコードを書く際のデファクトにしたい言語。
         <br />
-        個人開発や課題をこなす中で使用。
+        得意言語として伸ばしていきたい。
       </>
     ),
   },
@@ -128,9 +128,9 @@ const langAndframewarks = [
     imgUrl: 'img/logo-icons/nextjs-icon.svg',
     description: (
       <>
-        今年、個人勉強や課題をこなす中で使用し始めたフレームワーク。
+        自分の得意技術として伸ばしていきたいフレームワーク。
         <br />
-        React の知識を深める中で、この技術も習得していきたい。
+        個人活動でも使うことが多い。
       </>
     ),
   },

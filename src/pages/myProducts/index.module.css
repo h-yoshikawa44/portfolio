@@ -5,8 +5,12 @@
   object-position: 50% 0;
 }
 
+.cardCustom {
+  height: 100%;
+}
+
 .cardBodyCustom {
-  height: 128px;
+  height: 1 0 auto;
 }
 
 @media (max-width: 996px) {

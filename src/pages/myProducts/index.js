@@ -17,7 +17,7 @@ Product.propTypes = {
 function Product({ productName, description, imageUrl, url, githubUrl }) {
   return (
     <div className="col col--4 margin-bottom--lg">
-      <div className="card shadow--lw-custom">
+      <div className={clsx('card', 'shadow--lw-custom', styles.cardCustom)}>
         <p className="text--center card__image">
           <img
             src={useBaseUrl(imageUrl)}

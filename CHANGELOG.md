@@ -1,6 +1,10 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2022-03-05
+### Fixed
+- MyProducts のカードの文字が隠れる問題修正(#45)
+
 ## 2022-02-27
 ### Data Updated
 - ポートフォリオ更新 - 2022/03(#43)

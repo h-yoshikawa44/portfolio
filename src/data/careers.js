@@ -2,6 +2,24 @@ import React from 'react';
 
 const careersAtYumemi = [
   {
+    period: '2022/04 〜',
+    title: 'ECサイト',
+    langAndFw: 'TypeScript / Next.js / Jest / Storybook',
+    db: '',
+    environment: 'Git',
+    cloudService: '',
+    other: '',
+    description: (
+      <>
+        保守案件。
+        <br />
+        スクラムでプロジェクトは進行。
+        <br />
+        フロントエンド担当の1人として、実装・テストコード作成やドキュメント更新など。
+      </>
+    ),
+  },
+  {
     period: '2022/02中旬',
     title: '入社',
     langAndFw: '',
@@ -13,7 +31,7 @@ const careersAtYumemi = [
       <>
         療養に専念後の約8か月の復職活動を経て、フロントエンドエンジニアとして入社。
         <br />
-        案件に入るまでは、前勉強として Next.js やスクラムの勉強に勤しむ。
+        案件に入るまでは、その前勉強として Next.js やスクラムの勉強に勤しむ。
       </>
     ),
   },

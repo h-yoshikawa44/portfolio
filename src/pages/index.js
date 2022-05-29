@@ -82,21 +82,12 @@ function Home() {
                     </div>
                   </div>
                   <div className="card__body">
+                    <p>Web Developer。</p>
                     <p>
-                      Web Developer。
+                      現在はフロントエンドエンジニアとして仕事しています。
                       <br />
-                      2022/02中旬に復職して復活中。
-                    </p>
-                    <p>
-                      実務経験として、フロントエンド、バックエンドともに経験はありますが、
+                      比較的慣れているのは TypeScript × React、Next.js あたり。
                       <br />
-                      いまいちスキルの中途半端感があるのでフロントエンド領域のスキルを伸ばそうと日々勉強しています。
-                      <br />
-                      最近、メインで使用しているものは TypeScript × React、時に
-                      Next.js です。
-                      <br />
-                      また、基礎の地盤固めとして HTML・CSS・JavaScript
-                      の再勉強をしていたりもします。
                     </p>
                   </div>
                   <div className="card__footer">
@@ -134,6 +125,10 @@ function Home() {
                       <PersonalLinkItem
                         url={siteConfig.customFields.url.crieit}
                         text="Crieit"
+                      />
+                      <PersonalLinkItem
+                        url={siteConfig.customFields.url.note}
+                        text="note"
                       />
                     </ul>
                   </div>

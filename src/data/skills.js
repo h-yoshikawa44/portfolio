@@ -57,13 +57,13 @@ export const environments = [
 
 const langAndframewarks = [
   {
-    title: 'HTML',
+    title: 'HTML（Living Standard）',
     imgUrl: 'img/logo-icons/html-5.svg',
     description: (
       <>
         基礎復習で勉強中。
         <br />
-        そのうち、資格にも挑戦してみようか検討中。
+        今年のうちに資格試験にも挑戦予定。
       </>
     ),
   },
@@ -83,7 +83,7 @@ const langAndframewarks = [
     imgUrl: 'img/logo-icons/javascript.svg',
     description: (
       <>
-        実務使用経験ありであるが、基本的にフロントのみ。
+        実務使用経験ありであるが、基本的にフロントエンドのみ。
         <br />
         あとは Google Apps Script の経験あり。
       </>
@@ -143,7 +143,7 @@ const langAndframewarks = [
         <br />
         この業界に入る前にメインで学んでいた言語。
         <br />
-        その当時に資格を取得済みであるが、ここ最近はブランクがある。
+        その当時に資格(ver.SE8)を取得済みであるが、ここ最近はブランクがある。
       </>
     ),
   },

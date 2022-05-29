@@ -18,6 +18,7 @@ module.exports = {
       zenn: 'https://zenn.dev/h_yoshikawa0724',
       crieit: 'https://crieit.net/users/h-yoshikawa0724',
       credly: 'https://www.credly.com/users/h-yoshikawa44',
+      note: 'https://note.com/h_yoshikawa44',
     },
   },
   themeConfig: {
@@ -94,6 +95,10 @@ module.exports = {
             {
               label: 'Crieit',
               href: 'https://crieit.net/users/h-yoshikawa0724',
+            },
+            {
+              label: 'note',
+              href: 'https://note.com/h_yoshikawa44',
             },
             {
               html: `

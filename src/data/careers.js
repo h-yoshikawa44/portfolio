@@ -3,6 +3,27 @@ import React from 'react';
 const careersAtYumemi = [
   {
     period: '2022/04 〜',
+    title: '特定の絵文字で投稿を自動転送する Slack Bot',
+    langAndFw: 'TypeScript / Node.js',
+    db: 'Notion DB',
+    environment: 'Git / Serverless Framework',
+    cloudService: 'AWS[Lambda, API Gateway]',
+    other: '',
+    description: (
+      <>
+        案件外の業務改善活動で、自分がメインで開発したもの。
+        <br />
+        元々、Slack
+        で職能グループ全体の連絡を各チームチャンネルに転送するのを各々が手動でやっており、ちょっと手間だよね、という背景があった。
+        <br />
+        それに対して、1つのカスタム絵文字をつけるとその絵文字が紐づくチャンネル全てに自動転送する
+        Slack Bot を作ったというもの。
+        <br />
+      </>
+    ),
+  },
+  {
+    period: '2022/04 〜',
     title: 'ECサイト',
     langAndFw: 'TypeScript / Next.js / Jest / Storybook',
     db: '',

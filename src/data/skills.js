@@ -63,7 +63,7 @@ const langAndframewarks = [
       <>
         基礎復習で勉強中。
         <br />
-        今年のうちに資格試験にも挑戦予定。
+        プロフェッショナル認定試験 レベル1は取得済み。
       </>
     ),
   },
@@ -85,7 +85,7 @@ const langAndframewarks = [
       <>
         実務使用経験ありであるが、基本的にフロントエンドのみ。
         <br />
-        あとは Google Apps Script の経験あり。
+        TypeScript をメインで使用しているので、素で使うことはあまりない。
       </>
     ),
   },
@@ -239,6 +239,10 @@ const database = [
 ];
 
 const qualification = [
+  {
+    name: 'HTML5 プロフェッショナル認定試験 レベル1（ver 2.5）',
+    date: '2022/06',
+  },
   {
     name: 'AWS Certified Solutions Architect – Associate',
     date: '2019/08',

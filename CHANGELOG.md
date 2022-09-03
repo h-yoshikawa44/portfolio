@@ -1,6 +1,12 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2022-09
+### Data Updated
+- ポートフォリオ更新 - 2022/09(#53)
+  - AWS SAA更新を反映
+  - 細かな説明追記
+
 ## 2022-07-03
 ### Data Updated
 - ポートフォリオ更新 - 2022/07(#51)

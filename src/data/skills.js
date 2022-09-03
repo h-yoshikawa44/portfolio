@@ -245,7 +245,7 @@ const qualification = [
   },
   {
     name: 'AWS Certified Solutions Architect – Associate',
-    date: '2019/08',
+    date: '2019/08（最終更新：2022/08）',
   },
   {
     name: 'Oracle Certified Java Programmer, Gold SE 8',

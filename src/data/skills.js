@@ -4,22 +4,16 @@ const editors = [
   {
     title: 'Visual Studio Code',
     imgUrl: 'img/logo-icons/visual-studio-code.svg',
-    description: (
-      <>
-        Java 以外の言語のコーディングで使用。
-        <br />
-        メインで使用しているエディタ。
-      </>
-    ),
+    description: <>メインで使用しているエディタ。</>,
   },
   {
-    title: 'Eclipse',
-    imgUrl: 'img/logo-icons/eclipse.svg',
+    title: 'IntelliJ IDEA',
+    imgUrl: 'img/logo-icons/intellij-idea.svg',
     description: (
       <>
-        Java のコーディングで使用。
+        Kotlin のコーディングで使用。
         <br />
-        Spring の場合は、Spring Tool Suite を使用したこともあり。
+        まだそこまで使い慣れてない。
       </>
     ),
   },
@@ -135,6 +129,42 @@ const langAndframewarks = [
     ),
   },
   {
+    title: 'Kotlin',
+    imgUrl: 'img/logo-icons/kotlin-icon.svg',
+    description: (
+      <>
+        個人勉強しているのみ。
+        <br />
+        Java の後継的位置づけということもあり、興味があって勉強中。
+      </>
+    ),
+  },
+  {
+    title: 'Spring Boot',
+    imgUrl: 'img/logo-icons/spring-icon.svg',
+    description: (
+      <>
+        実務使用経験あり。
+        <br />
+        テンプレートエンジンは使用せず、API としての開発経験のみ。
+      </>
+    ),
+  },
+  {
+    title: 'Jekyll',
+    imgUrl: 'img/logo-icons/jekyll.svg',
+    description: (
+      <>
+        自ブログで使用。
+        <br />
+        テーマは公開されているものを使用しているが、それをカスタマイズして使用。
+      </>
+    ),
+  },
+];
+
+const langAndframewarkBlanks = [
+  {
     title: 'Java',
     imgUrl: 'img/logo-icons/java.svg',
     description: (
@@ -144,17 +174,6 @@ const langAndframewarks = [
         この業界に入る前にメインで学んでいた言語。
         <br />
         その当時に資格(ver.SE8)を取得済みであるが、ここ最近はブランクがある。
-      </>
-    ),
-  },
-  {
-    title: 'Spring',
-    imgUrl: 'img/logo-icons/spring-icon.svg',
-    description: (
-      <>
-        実務使用経験あり。
-        <br />
-        テンプレートエンジンは使用せず、API としての開発経験のみ。
       </>
     ),
   },
@@ -213,17 +232,6 @@ const langAndframewarks = [
     description: <>保守案件での業務使用経験あり。</>,
   },
   {
-    title: 'Jekyll',
-    imgUrl: 'img/logo-icons/jekyll.svg',
-    description: (
-      <>
-        自ブログで使用。
-        <br />
-        テーマは公開されているものを使用しているが、それをカスタマイズして使用。
-      </>
-    ),
-  },
-  {
     title: 'C#',
     imgUrl: 'img/logo-icons/c-sharp.svg',
     description: <>研修で学んだ程度。</>,
@@ -265,4 +273,10 @@ const qualification = [
   },
 ];
 
-export { editors, langAndframewarks, database, qualification };
+export {
+  editors,
+  langAndframewarks,
+  langAndframewarkBlanks,
+  database,
+  qualification,
+};

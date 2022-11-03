@@ -8,6 +8,7 @@ import {
   editors,
   environments,
   langAndframewarks,
+  langAndframewarkBlanks,
   database,
   qualification,
 } from '../../data/skills';
@@ -149,6 +150,18 @@ function SkillAndCareer() {
                 </div>
               </div>
             )}
+            <details className="padding-bottom--lg">
+              <summary>最近ご無沙汰のやつ</summary>
+              {langAndframewarkBlanks && langAndframewarkBlanks.length && (
+                <div className="padding-top--lg">
+                  <div className="row">
+                    {langAndframewarkBlanks.map((props, idx) => (
+                      <Skill key={idx} {...props} />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </details>
           </section>
           <section>
             <h3 className="text--center decoration-line">データベース</h3>

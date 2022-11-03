@@ -1,7 +1,13 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
-## 2022-09
+## 2022-11-03
+### Data Updated
+- ポートフォリオ更新 - 2022/11(#55)
+  - スキルで最近ご無沙汰のやつはわけた
+  - スキルに IntelliJ IDEA と Kotlin を追加
+
+## 2022-09-03
 ### Data Updated
 - ポートフォリオ更新 - 2022/09(#53)
   - AWS SAA更新を反映

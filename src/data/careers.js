@@ -6,7 +6,7 @@ const careersAtYumemi = [
     title: '特定の絵文字で投稿を自動転送する Slack Bot',
     langAndFw: 'TypeScript / Node.js',
     db: 'Notion DB',
-    environment: 'Git / Serverless Framework',
+    environment: 'Git / GitHub Actions / Serverless Framework',
     cloudService: 'AWS[Lambda, API Gateway]',
     other: '',
     description: (
@@ -37,7 +37,7 @@ const careersAtYumemi = [
         <br />
         スクラムでプロジェクトは進行。複数あるチームのうち、主に新規エピックを対応しているチームに所属（他チームはリプレース担当、後方支援担当などがある）
         <br />
-        フロントエンド担当の1人として、実装・テストコード作成やドキュメント更新など。担当エピックにおいて、リード的な立ち回りにも挑戦中。
+        フロントエンド担当の1人として、詳細設計・実装・テストコード作成やドキュメント更新など。担当エピックにおいて、リード的な立ち回りにも挑戦中。
       </>
     ),
   },
@@ -53,7 +53,7 @@ const careersAtYumemi = [
       <>
         療養に専念後の約8か月の復職活動を経て、フロントエンドエンジニアとして入社。
         <br />
-        案件に入るまでは、その前勉強として Next.js やスクラムの勉強に勤しむ。
+        案件に入るまでは、その前勉強として Next.js やスクラムの勉強にいそしむ。
       </>
     ),
   },
@@ -222,8 +222,7 @@ const personalDevelopment = [
         <br />
         構想自体は2020/08くらいからあったが、実際に積極的に活動を始めたのが2020/12頃。
         <br />
-        ※2021/08の時点で、devChallenges の課題を通した基礎復習と Recursion
-        でのコンピュータサイエンス学習を優先しているため停止中。
+        ※他の学習などを優先して停止したまま。
       </>
     ),
   },

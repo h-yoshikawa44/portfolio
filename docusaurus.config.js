@@ -113,7 +113,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Hitomi Yoshikawa Built with Docusaurus.`,
     },
     gtag: {
-      trackingID: 'UA-141521257-2',
+      trackingID: 'G-Z18TXK5BKC',
     },
   },
   presets: [

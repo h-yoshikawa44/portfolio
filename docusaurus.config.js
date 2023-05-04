@@ -15,6 +15,7 @@ module.exports = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false,
 
   projectName: 'portfolio', // Usually your repo name.
 
@@ -47,7 +48,6 @@ module.exports = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: true,
         },
         gtag: {
           trackingID: 'G-Z18TXK5BKC',

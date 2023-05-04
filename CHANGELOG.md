@@ -2,6 +2,11 @@
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2023-05-04
+### Update
+- ライブラリアプデ(#62)
+  - Node.js：16.13.0 → 18.15.0
+  - Docusarus：2.0.0-beta.13 → 2.4.0
+
 ### Development Changed
 - Google AnalyticsのTracking IDをGA4に移行(#59)
 

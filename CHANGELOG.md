@@ -1,6 +1,10 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2023-05-04
+### Development Changed
+- Google AnalyticsのTracking IDをGA4に移行(#59)
+
 ## 2022-11-03
 ### Data Updated
 - ポートフォリオ更新 - 2022/11(#55)

@@ -112,9 +112,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Hitomi Yoshikawa Built with Docusaurus.`,
     },
-    gtag: {
-      trackingID: 'G-Z18TXK5BKC',
-    },
   },
   presets: [
     [
@@ -132,6 +129,10 @@ module.exports = {
           changefreq: 'weekly',
           priority: 0.5,
           trailingSlash: false,
+        },
+        gtag: {
+          trackingID: 'G-Z18TXK5BKC',
+          anonymizeIP: true,
         },
       },
     ],

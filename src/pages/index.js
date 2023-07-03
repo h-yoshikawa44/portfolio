@@ -115,6 +115,10 @@ function Home() {
                         text="Twitter"
                       />
                       <PersonalLinkItem
+                        url={siteConfig.customFields.url.bluesky}
+                        text="Bluesky"
+                      />
+                      <PersonalLinkItem
                         url={siteConfig.customFields.url.qiita}
                         text="Qiita"
                       />

@@ -121,6 +121,10 @@ module.exports = {
                 href: 'https://twitter.com/yoshi44_lion',
               },
               {
+                label: 'Bluesky',
+                href: 'https://bsky.app/profile/h-yoshikawa44.bsky.social',
+              },
+              {
                 label: 'Qiita',
                 href: 'https://qiita.com/h-yoshikawa44',
               },
@@ -159,6 +163,7 @@ module.exports = {
       wantedly: 'https://www.wantedly.com/id/h_yoshikawa44',
       github: 'https://github.com/h-yoshikawa44',
       twitter: 'https://twitter.com/yoshi44_lion',
+      bluesky: 'https://bsky.app/profile/h-yoshikawa44.bsky.social',
       qiita: 'https://qiita.com/h-yoshikawa44',
       zenn: 'https://zenn.dev/h_yoshikawa0724',
       crieit: 'https://crieit.net/users/h-yoshikawa0724',

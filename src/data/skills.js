@@ -118,6 +118,18 @@ const langAndframewarks = [
     ),
   },
   {
+    title: 'Astro',
+    imgUrl: 'img/logo-icons/astro-icon.svg',
+    description: (
+      <>
+        ブログリプレース（開発中）で採用。
+        <br />
+        SSG やるなら Astro
+        でいいかなと実感するくらいには扱えるようになったかも。
+      </>
+    ),
+  },
+  {
     title: 'Next.js',
     imgUrl: 'img/logo-icons/nextjs-icon.svg',
     description: (

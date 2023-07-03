@@ -26,7 +26,7 @@ const careersAtYumemi = [
   {
     period: '2022/04 〜',
     title: 'ECサイト',
-    langAndFw: 'TypeScript / Next.js / Jest / Storybook',
+    langAndFw: 'TypeScript / Next.js / Tailwind CSS / Jest / Storybook',
     db: '',
     environment: 'Git',
     cloudService: '',
@@ -37,7 +37,9 @@ const careersAtYumemi = [
         <br />
         スクラムでプロジェクトは進行。複数あるチームのうち、主に新規エピックを対応しているチームに所属（他チームはリプレース担当、後方支援担当などがある）
         <br />
-        フロントエンド担当の1人として、詳細設計・実装・テストコード作成やドキュメント更新など。担当エピックにおいて、リード的な立ち回りにも挑戦中。
+        フロントエンド担当の1人として、詳細設計・実装・テストコード作成やドキュメント更新など。
+        <br />
+        担当エピックにおいて、リード的な立ち回りにも挑戦中（現在、6エピックほど経験）
       </>
     ),
   },

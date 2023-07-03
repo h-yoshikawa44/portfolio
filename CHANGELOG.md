@@ -1,6 +1,13 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2023-07-03
+### Data Update
+- ポートフォリオ更新 - 2023/07(#63)
+  - スキル - Astro 追加
+  - 経歴 - ECサイト案件の内容更新
+  - Bluesky アカウントリンク追加
+
 ## 2023-05-04
 ### Update
 - ライブラリアプデ(#62)

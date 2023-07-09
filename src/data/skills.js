@@ -118,18 +118,6 @@ const langAndframewarks = [
     ),
   },
   {
-    title: 'Astro',
-    imgUrl: 'img/logo-icons/astro-icon.svg',
-    description: (
-      <>
-        ブログリプレース（開発中）で採用。
-        <br />
-        SSG やるなら Astro
-        でいいかなと実感するくらいには扱えるようになったかも。
-      </>
-    ),
-  },
-  {
     title: 'Next.js',
     imgUrl: 'img/logo-icons/nextjs-icon.svg',
     description: (
@@ -137,6 +125,18 @@ const langAndframewarks = [
         自分の得意技術として伸ばしていきたいフレームワーク。
         <br />
         個人活動でも使うことが多い。
+      </>
+    ),
+  },
+  {
+    title: 'Astro',
+    imgUrl: 'img/logo-icons/astro-icon.svg',
+    description: (
+      <>
+        自ブログで採用。
+        <br />
+        SSG やるなら Astro
+        でいいかなと実感するくらいには扱えるようになったかも。
       </>
     ),
   },
@@ -167,7 +167,7 @@ const langAndframewarks = [
     imgUrl: 'img/logo-icons/jekyll.svg',
     description: (
       <>
-        自ブログで使用。
+        自ブログで使用歴あり（リプレース前）
         <br />
         テーマは公開されているものを使用しているが、それをカスタマイズして使用。
       </>

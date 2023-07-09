@@ -5,9 +5,9 @@ const siteMyProducts = [
     productName: 'Change Of Pace',
     description: (
       <>
-        Jekyll 製の個人ブログ（リポジトリは非公開）
+        Astro 製の個人ブログ（リポジトリは非公開）
         <br />
-        テーマは Hydeout を使用 + 細かなカスタム。
+        2023/07に Jekyll から移行。テーマは使用せず自作。
       </>
     ),
     imageUrl: 'img/my-products/change-of-pace/overview.png',

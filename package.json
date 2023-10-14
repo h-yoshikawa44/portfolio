@@ -21,15 +21,15 @@
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.4.0",
-    "@docusaurus/preset-classic": "^2.4.0",
+    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/preset-classic": "^2.4.3",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.4.0",
+    "@docusaurus/module-type-aliases": "^2.4.3",
     "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",

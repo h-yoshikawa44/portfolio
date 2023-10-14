@@ -1,6 +1,15 @@
 # CHANGELOG
 h-yoshikawa44's Portfolio の大まかな機能変化記録
 
+## 2023-10-14
+### Updated
+- Node.js、各種ライブラリのアプデ対応(#69)
+  - Node.js: 18.15.0 -> 18.17.1
+  - Docusaurus: 2.4.0 -> 2.4.3
+
+### Development Changed
+- yarn から npm へ移行(#69)
+
 ## 2023-07-09
 ### Data Update
 - ポートフォリオ更新 - ブログリプレース反映(#65)
@@ -88,8 +97,8 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 ## 2021-12-15
 
 ### Updated
-- React：17.0.1 → 17.0.2(#29)
-- Docusaurus：2.0.0-beta.0 → 2.0.0-beta.13(#29)
+- React: 17.0.1 → 17.0.2(#29)
+- Docusaurus: 2.0.0-beta.0 → 2.0.0-beta.13(#29)
 
 ### TIL Docs Removed
 - 仕切り直したいので、一旦全ページ削除(#3)
@@ -104,7 +113,7 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 - MyProductsのカードの影と説明文部分の高さ調整(#27)
 
 ### Updated
-- Node.js：14.17.3 → 16.13.0
+- Node.js: 14.17.3 → 16.13.0
 
 ### Data Updated
 - ポートフォリオ更新 - 2021/11 後期(#27)
@@ -119,7 +128,7 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2021-11-01
 ### Updated
-- Node.js：14.16.0 → 14.17.3
+- Node.js: 14.16.0 → 14.17.3
 
 ### Data Updated
 - ポートフォリオ更新 - 2021/11(#25)
@@ -169,7 +178,7 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2021-05-14
 ### Updated
-- Docusaurus（2.0.0-alpha.72 → 2.0.0-beta.0）(#10)
+- Docusaurus: 2.0.0-alpha.72 → 2.0.0-beta.0 (#10)
 
 ### Changed
 - classnames を clsx に移行(#10)
@@ -195,8 +204,8 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2021-04-02
 ### Updated
-- Docusaurus（2.0.0-alpha.65 → 2.0.0-alpha.72）(#1)
-- React（16.12.0 → 17.0.2）(#1)
+- Docusaurus: 2.0.0-alpha.65 → 2.0.0-alpha.72(#1)
+- React: 16.12.0 → 17.0.2 (#1)
 
 ### Development Chaged
 - TIL リポジトリから分離（当リポジトリ作成）
@@ -214,11 +223,11 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2020-10-12
 ### Updated
-- Docusaurus（2.0.0-alpha.61 → 2.0.0-alpha.65）
+- Docusaurus: 2.0.0-alpha.61 → 2.0.0-alpha.65
 
 ## 2020-08-02
 ### Updated
-- Docusaurus（2.0.0-alpha.54 → 2.0.0-alpha.61）
+- Docusaurus: 2.0.0-alpha.54 → 2.0.0-alpha.61
 
 ## 2020-06-07
 ### Added
@@ -226,24 +235,24 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ## 2020-05-02
 ### Updated
-- Node.js（10系 → 12.10.0）
-- Docusaurus（2.0.0-alpha.40 → 2.0.0-alpha.54）
+- Node.js: 10系 → 12.10.0
+- Docusaurus: 2.0.0-alpha.40 → 2.0.0-alpha.54
 
 ## 2020-04-19
 ### Downgraded
-- Docusaurus（2.0.0-alpha.50 → 2.0.0-alpha.40）
+- Docusaurus: 2.0.0-alpha.50 → 2.0.0-alpha.40
   ※コピーボタン、サイトマップバグのため
 
 ## 2020-04-18
 ### Updated
-- react-script（3.0.1 → 3.4.1）
+- react-script: 3.0.1 → 3.4.1
 
 ## 2020-04-12
 ### Added
 - OGP 画像設定
 
 ### Updated
-- Docusaurus（2.0.0-alpha.40 → 2.0.0-alpha.50）
+- Docusaurus: 2.0.0-alpha.40 → 2.0.0-alpha.50
 
 ## 2020-04-11
 ### Added

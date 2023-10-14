@@ -12,21 +12,51 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "lint-check": "yarn lint:eslint && yarn check:prettier",
-    "lint:eslint": "yarn run -s eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
-    "check:prettier": "yarn run -s prettier --check \"./**/*.{html,css,json}\"",
-    "fix": "yarn fix:eslint && yarn fix:prettier",
-    "fix:eslint": "yarn lint:eslint --fix",
-    "fix:prettier": "yarn check:prettier --write",
+    "lint-check": "npm run lint:eslint && npm run check:prettier",
+    "lint:eslint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
+    "check:prettier": "prettier --check \"./**/*.{html,css,json}\"",
+    "fix": "npm run fix:eslint && npm run fix:prettier",
+    "fix:eslint": "npm run lint:eslint -- --fix",
+    "fix:prettier": "npm run check:prettier -- --write",
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.4.0",
-    "@docusaurus/preset-classic": "^2.4.0",
+    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/preset-classic": "^2.4.3",
     "@mdx-js/react": "^1.6.22",
-    "clsx": "^1.2.1",
+    "clsx": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^2.4.3",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "simple-git-hooks": "^2.9.0",
+    "textlint": "^13.3.3",
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
+  },
+  "volta": {
+    "node": "18.17.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "prepare-commit-msg": "./.githooks/prepare-commit-msg \"$@\""
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "prettier --write --loglevel=error",
+      "eslint --fix --quiet"
+    ],
+    "./**/*.{html,css,json}": [
+      "prettier --write --loglevel=error"
+    ]
   },
   "browserslist": {
     "production": [
@@ -38,36 +68,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.4.0",
-    "eslint": "^8.39.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "lint-staged": "^13.2.2",
-    "prettier": "^2.8.8",
-    "simple-git-hooks": "^2.8.1",
-    "textlint": "^13.3.2",
-    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
-  },
-  "volta": {
-    "node": "18.15.0",
-    "yarn": "1.22.17"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "yarn run -s lint-staged"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "prettier --write --loglevel=error",
-      "eslint --fix --quiet"
-    ],
-    "./**/*.{html,css,json}": [
-      "prettier --write --loglevel=error"
     ]
   }
 }

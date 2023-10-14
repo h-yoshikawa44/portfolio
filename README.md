@@ -6,23 +6,23 @@ h-yoshikawa44 のポートフォリオサイト
 
 [h-yoshikawa44's Portfolio](https://h-yoshikawa44.com/)
 ## 構成
-- Node.js：18.15.0
+- Node.js：18.17.1
 - React：17.0.2
-- Docusaurus：2.4.0
-- @docusaurus/preset-classic：2.4.0
+- Docusaurus：2.4.3
+- @docusaurus/preset-classic：2.4.3
   - Infima：0.2.0-alpha.43
 
-※2023/05/04更新
+※2023/10/14更新
 
 ## 環境立ち上げ
 ライブラリインストール
 ```
-$ yarn install
+npm install
 ```
 
 サーバ起動
 ```
-$ yarn start
+npm start
 ```
 
 ブラウザでアクセス

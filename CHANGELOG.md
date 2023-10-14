@@ -7,6 +7,12 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
   - Node.js: 18.15.0 -> 18.17.1
   - Docusaurus: 2.4.0 -> 2.4.3
 
+### Data Update
+- ポートフォリオ更新(#72)
+  - スキル - 最近でも使っている技術の内容更新
+  - 経歴（個人開発）にブログの情報追加
+  - プロダクト - ブログリプレースのリポジトリリンク追加
+
 ### Development Changed
 - yarn から npm へ移行(#69)
 - 独自ドメインを Google Domains から Cloudflare Registrar に移管(#67)

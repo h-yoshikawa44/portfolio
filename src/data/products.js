@@ -5,14 +5,14 @@ const siteMyProducts = [
     productName: 'Change Of Pace',
     description: (
       <>
-        Astro 製の個人ブログ（リポジトリは非公開）
+        Astro 製の個人ブログ。
         <br />
         2023/07に Jekyll から移行。テーマは使用せず自作。
       </>
     ),
     imageUrl: 'img/my-products/change-of-pace/overview.png',
-    url: 'https://changeofpace.site/',
-    githubUrl: '',
+    url: 'https://changeofpace.site',
+    githubUrl: 'https://github.com/h-yoshikawa44/change-of-pace-astro',
   },
 ];
 
@@ -21,7 +21,7 @@ const siteChallengeProducts = [
     productName: 'Portfolio',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その8。
+        devChallenges(legacy) - Responsive Web 編・課題その8。
         <br />
         ポートフォリオページを作成するチャレンジ。
       </>
@@ -34,7 +34,7 @@ const siteChallengeProducts = [
     productName: 'Edie homepage',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その7。
+        devChallenges(legacy) - Responsive Web 編・課題その7。
         <br />
         LP を作成するチャレンジ。
       </>
@@ -47,7 +47,7 @@ const siteChallengeProducts = [
     productName: 'Checkout Page',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その6。
+        devChallenges(legacy) - Responsive Web 編・課題その6。
         <br />
         買い物フォームページを作成するチャレンジ。
       </>
@@ -60,7 +60,7 @@ const siteChallengeProducts = [
     productName: 'My Gallery',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その5。
+        devChallenges(legacy) - Responsive Web 編・課題その5。
         <br />
         ギャラリーページを作成するチャレンジ。
       </>
@@ -73,7 +73,7 @@ const siteChallengeProducts = [
     productName: 'Recipe page',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その4。
+        devChallenges(legacy) - Responsive Web 編・課題その4。
         <br />
         レシピサイトのレシピページを作成するチャレンジ。
       </>
@@ -86,7 +86,7 @@ const siteChallengeProducts = [
     productName: 'Interior Consultant',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その3。
+        devChallenges(legacy) - Responsive Web 編・課題その3。
         <br />
         インテリアサービスサイトのトップページ + メニューを作成するチャレンジ。
       </>
@@ -100,7 +100,7 @@ const siteChallengeProducts = [
     productName: 'My team page',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その2。
+        devChallenges(legacy) - Responsive Web 編・課題その2。
         <br />
         チームメンバー一覧ページを作成するチャレンジ。
       </>
@@ -113,7 +113,7 @@ const siteChallengeProducts = [
     productName: '404 Not Found',
     description: (
       <>
-        devChallenges - Responsive Web 編・課題その1。
+        devChallenges(legacy) - Responsive Web 編・課題その1。
         <br />
         404ページを作成するチャレンジ。
       </>
@@ -158,7 +158,7 @@ const serviceChallengeProducts = [
     productName: 'Weather app',
     description: (
       <>
-        devChallenges - Front-end Developer 編・課題その7。
+        devChallenges(legacy) - Front-end Developer 編・課題その7。
         <br />
         MetaWeather API を使用した、天気予報アプリを作るチャレンジ。
       </>
@@ -171,7 +171,7 @@ const serviceChallengeProducts = [
     productName: 'Country quiz',
     description: (
       <>
-        devChallenges - Front-end Developer 編・課題その6。
+        devChallenges(legacy) - Front-end Developer 編・課題その6。
         <br />
         REST COUNTRIES API を使用した、国情報クイズアプリを作るチャレンジ。
       </>
@@ -184,7 +184,7 @@ const serviceChallengeProducts = [
     productName: 'Random quote generator',
     description: (
       <>
-        devChallenges - Front-end Developer 編・課題その5。
+        devChallenges(legacy) - Front-end Developer 編・課題その5。
         <br />
         QuoteGarden API を使用した、名言引用アプリを作るチャレンジ。
       </>
@@ -198,7 +198,7 @@ const serviceChallengeProducts = [
     productName: 'Todo app',
     description: (
       <>
-        devChallenges - Front-end Developer 編・課題その4。
+        devChallenges(legacy) - Front-end Developer 編・課題その4。
         <br />
         LocalStorage を使用したシンプルな Todo アプリを作るチャレンジ。
       </>
@@ -211,7 +211,7 @@ const serviceChallengeProducts = [
     productName: 'Windbnb',
     description: (
       <>
-        devChallenges - Front-end Developer 編・課題その3。
+        devChallenges(legacy) - Front-end Developer 編・課題その3。
         <br />
         簡易的な検索機能を持つ、ミニマムな Airbnb クローンを作るチャレンジ。
       </>
@@ -224,7 +224,7 @@ const serviceChallengeProducts = [
     productName: 'Input component',
     description: (
       <>
-        devChallenges - Front-end Developer 編・課題その2。
+        devChallenges(legacy) - Front-end Developer 編・課題その2。
         <br />
         汎用的なボタンコンポーネントと、そのカタログページを作るチャレンジ。
       </>
@@ -237,7 +237,7 @@ const serviceChallengeProducts = [
     productName: 'Button component',
     description: (
       <>
-        devChallenges - Front-end Developer 編・課題その1。
+        devChallenges(legacy) - Front-end Developer 編・課題その1。
         <br />
         汎用的なボタンコンポーネントと、そのカタログページを作るチャレンジ。
       </>

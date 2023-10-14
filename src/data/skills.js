@@ -55,7 +55,7 @@ const langAndframewarks = [
     imgUrl: 'img/logo-icons/html-5.svg',
     description: (
       <>
-        基礎復習で勉強中。
+        普段は JSX を通して書くことが多い。
         <br />
         プロフェッショナル認定試験 レベル1は取得済み。
       </>
@@ -66,9 +66,9 @@ const langAndframewarks = [
     imgUrl: 'img/logo-icons/css-3.svg',
     description: (
       <>
-        基礎復習で勉強中。
+        CSS in JS の中で書いていたりもする。
         <br />
-        emotion の中で書いていたりもする。
+        PostCSS を使って新しめの構文もキャッチアップしていきたい。
       </>
     ),
   },
@@ -124,7 +124,7 @@ const langAndframewarks = [
       <>
         自分の得意技術として伸ばしていきたいフレームワーク。
         <br />
-        個人活動でも使うことが多い。
+        個人活動でも使うことが多いが、App Router はまだあまり使えていない。
       </>
     ),
   },
@@ -145,9 +145,9 @@ const langAndframewarks = [
     imgUrl: 'img/logo-icons/kotlin-icon.svg',
     description: (
       <>
-        個人勉強しているのみ。
+        個人勉強 + 業務でたまに書く程度。
         <br />
-        Java の後継的位置づけということもあり、興味があって勉強中。
+        Java の後継的位置づけということもあり、多少興味がある。
       </>
     ),
   },

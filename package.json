@@ -28,18 +28,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.4.0",
     "eslint": "^8.39.0",
@@ -58,7 +46,8 @@
     "node": "18.15.0"
   },
   "simple-git-hooks": {
-    "pre-commit": "yarn run -s lint-staged"
+    "pre-commit": "npx lint-staged",
+    "prepare-commit-msg": "./.githooks/prepare-commit-msg \"$@\""
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
@@ -67,6 +56,18 @@
     ],
     "./**/*.{html,css,json}": [
       "prettier --write --loglevel=error"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }

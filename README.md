@@ -6,7 +6,7 @@ h-yoshikawa44 のポートフォリオサイト
 
 [h-yoshikawa44's Portfolio](https://h-yoshikawa44.com/)
 ## 構成
-- Node.js：18.15.0
+- Node.js：18.17.1
 - React：17.0.2
 - Docusaurus：2.4.0
 - @docusaurus/preset-classic：2.4.0

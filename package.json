@@ -43,7 +43,7 @@
     "textlint-rule-preset-ja-technical-writing": "^7.0.0"
   },
   "volta": {
-    "node": "18.15.0"
+    "node": "18.17.1"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",

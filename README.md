@@ -17,12 +17,12 @@ h-yoshikawa44 のポートフォリオサイト
 ## 環境立ち上げ
 ライブラリインストール
 ```
-$ yarn install
+npm install
 ```
 
 サーバ起動
 ```
-$ yarn start
+npm start
 ```
 
 ブラウザでアクセス

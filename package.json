@@ -12,12 +12,12 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "lint-check": "yarn lint:eslint && yarn check:prettier",
-    "lint:eslint": "yarn run -s eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
-    "check:prettier": "yarn run -s prettier --check \"./**/*.{html,css,json}\"",
-    "fix": "yarn fix:eslint && yarn fix:prettier",
-    "fix:eslint": "yarn lint:eslint --fix",
-    "fix:prettier": "yarn check:prettier --write",
+    "lint-check": "npm run lint:eslint && npm run check:prettier",
+    "lint:eslint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
+    "check:prettier": "prettier --check \"./**/*.{html,css,json}\"",
+    "fix": "npm run fix:eslint && npm run fix:prettier",
+    "fix:eslint": "npm run lint:eslint -- --fix",
+    "fix:prettier": "npm check:prettier -- --write",
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
   "dependencies": {
@@ -55,8 +55,7 @@
     "textlint-rule-preset-ja-technical-writing": "^7.0.0"
   },
   "volta": {
-    "node": "18.15.0",
-    "yarn": "1.22.17"
+    "node": "18.15.0"
   },
   "simple-git-hooks": {
     "pre-commit": "yarn run -s lint-staged"

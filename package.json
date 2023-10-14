@@ -39,8 +39,8 @@
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "simple-git-hooks": "^2.9.0",
-    "textlint": "^13.3.2",
-    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
+    "textlint": "^13.3.3",
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
   },
   "volta": {
     "node": "18.17.1"

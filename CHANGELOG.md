@@ -9,6 +9,8 @@ h-yoshikawa44's Portfolio の大まかな機能変化記録
 
 ### Development Changed
 - yarn から npm へ移行(#69)
+- 独自ドメインを Google Domains から Cloudflare Registrar に移管(#67)
+- ホスティング環境を Netlify から Cloudflare Pages に移行(#68)
 
 ## 2023-07-09
 ### Data Update

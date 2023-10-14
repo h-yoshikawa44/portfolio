@@ -11,7 +11,7 @@ const careersAtYumemi = [
     other: '',
     description: (
       <>
-        案件外の業務改善活動で、自分がメインで開発したもの。2022/08より本運用中。
+        案件外の業務改善活動で自分がメインで開発したもの。2022/08より本運用開始して、継続してメンテナンスしている。
         <br />
         元々、Slack
         で職能グループ全体の連絡を各チームチャンネルに転送するのを各々が手動でやっており、ちょっと手間だよね、という背景があった。
@@ -25,21 +25,23 @@ const careersAtYumemi = [
   },
   {
     period: '2022/04 〜',
-    title: 'ECサイト',
-    langAndFw: 'TypeScript / Next.js / Tailwind CSS / Jest / Storybook',
+    title: 'ECサービス',
+    langAndFw:
+      'TypeScript / Next.js / Tailwind CSS / Jest / Storybook / Kotlin / Spring Boot',
     db: '',
-    environment: 'Git',
+    environment: 'Git / Swagger',
     cloudService: '',
-    other: '',
+    other: 'スクラム',
     description: (
       <>
-        保守案件。
+        保守案件。複数チームからなる規模の大き目な案件。
         <br />
-        スクラムでプロジェクトは進行。複数あるチームのうち、主に新規エピックを対応しているチームに所属（他チームはリプレース担当、後方支援担当などがある）
+        主に新規エピックを対応するチームに始まり、チーム入れ替え後も引き続きエピック対応中（他チームには後方支援担当などがある）
         <br />
-        フロントエンド担当の1人として、詳細設計・実装・テストコード作成やドキュメント更新など。
+        基本的にはフロントエンド担当であるが、たまに BFF も触ることがある。 先方
+        PO と要件詰め～設計～実装、ドキュメント更新など。
         <br />
-        担当エピックにおいて、リード的な立ち回りにも挑戦中（現在、6エピックほど経験）
+        規模はまちまちではあるが、エピックリードも7件ほど経験（2023/10時点）
       </>
     ),
   },
@@ -100,13 +102,13 @@ const careersAtFroide = [
     title: '売上/店舗/ユーザ管理システム',
     langAndFw: 'JavaScript / React / Java / Spring Boot',
     db: 'MySQL',
-    environment: 'Git / Docker',
+    environment: 'Git / Docker / Swagger',
     cloudService: '',
-    other: 'Swagger',
+    other: '',
     description: (
       <>
-        新規開発 ～
-        保守案件。モバイルアプリとして提供しているサービスの管理システム側。
+        新規開発 ～ 保守案件。モバイルアプリとして提供しているサービスの Web
+        管理システム側。
         <br />
         実装部分を担当。メインはフロントエンド担当であったものの、機能改修要件ではバックエンド側の修正も一緒に行なった時もあり。
         <br />
@@ -137,7 +139,7 @@ const careersAtFroide = [
     db: 'Amazon Aurora / Redis',
     environment: 'Git / Jenkins / Serverless Framework',
     cloudService: 'AWS[CLI, EC2, ElastiCache, Lambda, API Gateway]',
-    other: '',
+    other: 'スクラム',
     description: (
       <>
         保守案件。宿泊サービスの予約システム群。
@@ -157,7 +159,7 @@ const careersAtFroide = [
     db: 'MySQL',
     environment: 'Git / Docker / Circle CI / Deployer',
     cloudService: 'AWS[EC2, RDS]',
-    other: '',
+    other: 'スクラム',
     description: (
       <>
         新規開発案件。福祉系の保険請求システム。
@@ -208,13 +210,32 @@ const careersAtFroide = [
 
 const personalDevelopment = [
   {
+    period: '2023/07 ～ ',
+    title: 'Change Of Pace（Astro 版）',
+    langAndFw: 'TypeScript / Astro / UnoCSS',
+    db: '',
+    environment: 'Git / GitHub Actions',
+    cloudService: 'Netlify -> Cloudflare[Pages]',
+    other: '',
+    description: (
+      <>
+        個人ブログサイトを Astro でリプレースしたもの。
+        <br />
+        フロントエンドメインで活動するようになったことで、使用技術を Node.js
+        周辺に寄せたくなり、Jekyll から Astro へリプレースした。
+        <br />
+        デザインはリプレース前とは違い、既存テーマは使わず自作。
+      </>
+    ),
+  },
+  {
     period: '2020/12 ～ 2021/05 ※現在停止中',
     title: 'OOUI-MEMO',
     langAndFw: 'TypeScript / React / PHP / Laravel',
     db: 'MySQL',
-    environment: 'Git / Docker / GitHub Actions',
+    environment: 'Git / Docker / GitHub Actions / OpenAPI',
     cloudService: 'Heroku',
-    other: 'OpenAPI',
+    other: '',
     description: (
       <>
         シンプルなメモアプリケーション。
@@ -262,6 +283,25 @@ const personalDevelopment = [
         というライブラリでパズル部分を構成。
         <br />
         後に TypeScript 化 + カスタムフックを使ったリファクタリングを行った。
+      </>
+    ),
+  },
+  {
+    period: '2018/05 ～ 2023/07',
+    title: 'Change Of Pace（Jekyll 版）',
+    langAndFw: 'Ruby / Jekyll',
+    db: '',
+    environment: 'Git',
+    cloudService: 'Netlify',
+    other: '',
+    description: (
+      <>
+        個人ブログサイト。
+        <br />
+        元々、新人エンジニア時代に Jekyll
+        というもので何か作れるらしい、くらいのぼんやりした謎の意欲で作ったもの。
+        <br />
+        とはいえ、なんだかんだ記事を書くようになったのはこのおかげ。
       </>
     ),
   },
